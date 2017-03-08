@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftSegmentedView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pbm-H5-lhO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="M1H-dK-6Dw">
+                                <rect key="frame" x="100" y="572" width="175" height="29"/>
+                                <segments>
+                                    <segment title="画像１"/>
+                                    <segment title="画像２"/>
+                                </segments>
+                                <connections>
+                                    <action selector="testSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="Dtu-DU-3Oq"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pbm-H5-lhO" secondAttribute="bottom" id="4mr-Ji-RWd"/>
+                            <constraint firstItem="M1H-dK-6Dw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Eky-8s-wRk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="M1H-dK-6Dw" secondAttribute="bottom" constant="67" id="WIO-jX-Xcn"/>
+                            <constraint firstAttribute="trailing" secondItem="pbm-H5-lhO" secondAttribute="trailing" id="Xvi-73-9vJ"/>
+                            <constraint firstItem="pbm-H5-lhO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y5y-DT-zUa"/>
+                            <constraint firstItem="pbm-H5-lhO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wQK-vL-GRb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="BackImageView" destination="pbm-H5-lhO" id="ngJ-Mo-56M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-359.19999999999999" y="139.880059970015"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back1.jpg" width="1280" height="1920"/>
+    </resources>
+</document>
