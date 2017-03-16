@@ -20,6 +20,7 @@
 		F312AC3E1E79062400BC84D0 /* callplay2.png in Resources */ = {isa = PBXBuildFile; fileRef = F312AC371E79062400BC84D0 /* callplay2.png */; };
 		F312AC3F1E79062400BC84D0 /* child.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F312AC381E79062400BC84D0 /* child.jpg */; };
 		F312AC411E790BEE00BC84D0 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312AC401E790BEE00BC84D0 /* SoundViewController.swift */; };
+		F386C65D1E7A6E4C00B8EAE8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F386C65C1E7A6E4C00B8EAE8 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F312AC371E79062400BC84D0 /* callplay2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = callplay2.png; path = ../callplay2.png; sourceTree = "<group>"; };
 		F312AC381E79062400BC84D0 /* child.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = child.jpg; path = ../child.jpg; sourceTree = "<group>"; };
 		F312AC401E790BEE00BC84D0 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		F386C65C1E7A6E4C00B8EAE8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F386C65D1E7A6E4C00B8EAE8 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +59,7 @@
 			children = (
 				F312AC1F1E7905B100BC84D0 /* SwiftMousouLine */,
 				F312AC1E1E7905B100BC84D0 /* Products */,
+				F386C65B1E7A6E4C00B8EAE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +90,14 @@
 				F312AC2C1E7905B100BC84D0 /* Info.plist */,
 			);
 			path = SwiftMousouLine;
+			sourceTree = "<group>";
+		};
+		F386C65B1E7A6E4C00B8EAE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F386C65C1E7A6E4C00B8EAE8 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +341,7 @@
 				F312AC311E7905B100BC84D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
