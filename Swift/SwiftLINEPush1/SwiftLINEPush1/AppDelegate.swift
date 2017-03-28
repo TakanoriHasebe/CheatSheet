@@ -1,12 +1,13 @@
 //
 //  AppDelegate.swift
-//  SwiftPocket
+//  SwiftLINEPush1
 //
-//  Created by Takanori.H on 2017/03/23.
+//  Created by Takanori.H on 2017/03/28.
 //  Copyright © 2017年 Takanori.H. All rights reserved.
 //
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //アラートを出してユーザーに許可をとる 
+        UNUserNotificationCenter.current().requestAuthorization(options:[.alert,.sound],completionHandler:{
+            granted,error in
+            
+            //エラーが出たときの箇所
+            })
+        
         return true
     }
 

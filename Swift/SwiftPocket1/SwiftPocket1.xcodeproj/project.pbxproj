@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3C58C471E83A2B800C43CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C58C461E83A2B800C43CB5 /* AppDelegate.swift */; };
-		F3C58C491E83A2B800C43CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C58C481E83A2B800C43CB5 /* ViewController.swift */; };
-		F3C58C4C1E83A2B800C43CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C58C4A1E83A2B800C43CB5 /* Main.storyboard */; };
-		F3C58C4E1E83A2B800C43CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C58C4D1E83A2B800C43CB5 /* Assets.xcassets */; };
-		F3C58C511E83A2B800C43CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C58C4F1E83A2B800C43CB5 /* LaunchScreen.storyboard */; };
-		F3C58C621E83A2CD00C43CB5 /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C58C591E83A2CD00C43CB5 /* done.png */; };
-		F3C58C631E83A2CD00C43CB5 /* NSString+Sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C58C5B1E83A2CD00C43CB5 /* NSString+Sha1.m */; };
-		F3C58C641E83A2CD00C43CB5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C58C5D1E83A2CD00C43CB5 /* Reachability.m */; };
-		F3C58C651E83A2CD00C43CB5 /* RNCachingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C58C5F1E83A2CD00C43CB5 /* RNCachingURLProtocol.m */; };
-		F3C58C661E83A2CD00C43CB5 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C58C601E83A2CD00C43CB5 /* search.png */; };
-		F3C58C681E83A58E00C43CB5 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C58C671E83A58E00C43CB5 /* ListTableViewController.swift */; };
+		F398A00A1E8A47B5004175BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F398A0091E8A47B5004175BB /* AppDelegate.swift */; };
+		F398A00C1E8A47B5004175BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F398A00B1E8A47B5004175BB /* ViewController.swift */; };
+		F398A00F1E8A47B5004175BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F398A00D1E8A47B5004175BB /* Main.storyboard */; };
+		F398A0111E8A47B5004175BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F398A0101E8A47B5004175BB /* Assets.xcassets */; };
+		F398A0141E8A47B5004175BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F398A0121E8A47B5004175BB /* LaunchScreen.storyboard */; };
+		F398A0251E8A4899004175BB /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = F398A01C1E8A4899004175BB /* done.png */; };
+		F398A0261E8A4899004175BB /* NSString+Sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = F398A01E1E8A4899004175BB /* NSString+Sha1.m */; };
+		F398A0271E8A4899004175BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F398A0201E8A4899004175BB /* Reachability.m */; };
+		F398A0281E8A4899004175BB /* RNCachingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F398A0221E8A4899004175BB /* RNCachingURLProtocol.m */; };
+		F398A0291E8A4899004175BB /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = F398A0231E8A4899004175BB /* search.png */; };
+		F398A02B1E8A4AA6004175BB /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F398A02A1E8A4AA6004175BB /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3C58C431E83A2B800C43CB5 /* SwiftPocket1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPocket1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3C58C461E83A2B800C43CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3C58C481E83A2B800C43CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3C58C4B1E83A2B800C43CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3C58C4D1E83A2B800C43CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3C58C501E83A2B800C43CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F3C58C521E83A2B800C43CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3C58C581E83A2CC00C43CB5 /* SwiftPocket1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPocket1-Bridging-Header.h"; sourceTree = "<group>"; };
-		F3C58C591E83A2CD00C43CB5 /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
-		F3C58C5A1E83A2CD00C43CB5 /* NSString+Sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sha1.h"; sourceTree = "<group>"; };
-		F3C58C5B1E83A2CD00C43CB5 /* NSString+Sha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sha1.m"; sourceTree = "<group>"; };
-		F3C58C5C1E83A2CD00C43CB5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		F3C58C5D1E83A2CD00C43CB5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		F3C58C5E1E83A2CD00C43CB5 /* RNCachingURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCachingURLProtocol.h; sourceTree = "<group>"; };
-		F3C58C5F1E83A2CD00C43CB5 /* RNCachingURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCachingURLProtocol.m; sourceTree = "<group>"; };
-		F3C58C601E83A2CD00C43CB5 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
-		F3C58C611E83A2CD00C43CB5 /* SwiftPocket-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftPocket-Bridging-Header.h"; sourceTree = "<group>"; };
-		F3C58C671E83A58E00C43CB5 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = ../ListTableViewController.swift; sourceTree = "<group>"; };
+		F398A0061E8A47B5004175BB /* SwiftPocket1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPocket1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F398A0091E8A47B5004175BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F398A00B1E8A47B5004175BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F398A00E1E8A47B5004175BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F398A0101E8A47B5004175BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F398A0131E8A47B5004175BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F398A0151E8A47B5004175BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F398A01B1E8A4899004175BB /* SwiftPocket1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPocket1-Bridging-Header.h"; sourceTree = "<group>"; };
+		F398A01C1E8A4899004175BB /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
+		F398A01D1E8A4899004175BB /* NSString+Sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sha1.h"; sourceTree = "<group>"; };
+		F398A01E1E8A4899004175BB /* NSString+Sha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sha1.m"; sourceTree = "<group>"; };
+		F398A01F1E8A4899004175BB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F398A0201E8A4899004175BB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F398A0211E8A4899004175BB /* RNCachingURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCachingURLProtocol.h; sourceTree = "<group>"; };
+		F398A0221E8A4899004175BB /* RNCachingURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCachingURLProtocol.m; sourceTree = "<group>"; };
+		F398A0231E8A4899004175BB /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		F398A0241E8A4899004175BB /* SwiftPocket-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftPocket-Bridging-Header.h"; sourceTree = "<group>"; };
+		F398A02A1E8A4AA6004175BB /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3C58C401E83A2B800C43CB5 /* Frameworks */ = {
+		F398A0031E8A47B5004175BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,42 +52,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3C58C3A1E83A2B800C43CB5 = {
+		F3989FFD1E8A47B5004175BB = {
 			isa = PBXGroup;
 			children = (
-				F3C58C451E83A2B800C43CB5 /* SwiftPocket1 */,
-				F3C58C441E83A2B800C43CB5 /* Products */,
+				F398A0081E8A47B5004175BB /* SwiftPocket1 */,
+				F398A0071E8A47B5004175BB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3C58C441E83A2B800C43CB5 /* Products */ = {
+		F398A0071E8A47B5004175BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3C58C431E83A2B800C43CB5 /* SwiftPocket1.app */,
+				F398A0061E8A47B5004175BB /* SwiftPocket1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3C58C451E83A2B800C43CB5 /* SwiftPocket1 */ = {
+		F398A0081E8A47B5004175BB /* SwiftPocket1 */ = {
 			isa = PBXGroup;
 			children = (
-				F3C58C591E83A2CD00C43CB5 /* done.png */,
-				F3C58C5A1E83A2CD00C43CB5 /* NSString+Sha1.h */,
-				F3C58C5B1E83A2CD00C43CB5 /* NSString+Sha1.m */,
-				F3C58C5C1E83A2CD00C43CB5 /* Reachability.h */,
-				F3C58C5D1E83A2CD00C43CB5 /* Reachability.m */,
-				F3C58C5E1E83A2CD00C43CB5 /* RNCachingURLProtocol.h */,
-				F3C58C5F1E83A2CD00C43CB5 /* RNCachingURLProtocol.m */,
-				F3C58C601E83A2CD00C43CB5 /* search.png */,
-				F3C58C611E83A2CD00C43CB5 /* SwiftPocket-Bridging-Header.h */,
-				F3C58C461E83A2B800C43CB5 /* AppDelegate.swift */,
-				F3C58C481E83A2B800C43CB5 /* ViewController.swift */,
-				F3C58C671E83A58E00C43CB5 /* ListTableViewController.swift */,
-				F3C58C4A1E83A2B800C43CB5 /* Main.storyboard */,
-				F3C58C4D1E83A2B800C43CB5 /* Assets.xcassets */,
-				F3C58C4F1E83A2B800C43CB5 /* LaunchScreen.storyboard */,
-				F3C58C521E83A2B800C43CB5 /* Info.plist */,
-				F3C58C581E83A2CC00C43CB5 /* SwiftPocket1-Bridging-Header.h */,
+				F398A01C1E8A4899004175BB /* done.png */,
+				F398A01D1E8A4899004175BB /* NSString+Sha1.h */,
+				F398A01E1E8A4899004175BB /* NSString+Sha1.m */,
+				F398A01F1E8A4899004175BB /* Reachability.h */,
+				F398A0201E8A4899004175BB /* Reachability.m */,
+				F398A0211E8A4899004175BB /* RNCachingURLProtocol.h */,
+				F398A0221E8A4899004175BB /* RNCachingURLProtocol.m */,
+				F398A0231E8A4899004175BB /* search.png */,
+				F398A0241E8A4899004175BB /* SwiftPocket-Bridging-Header.h */,
+				F398A0091E8A47B5004175BB /* AppDelegate.swift */,
+				F398A00B1E8A47B5004175BB /* ViewController.swift */,
+				F398A02A1E8A4AA6004175BB /* ListTableViewController.swift */,
+				F398A00D1E8A47B5004175BB /* Main.storyboard */,
+				F398A0101E8A47B5004175BB /* Assets.xcassets */,
+				F398A0121E8A47B5004175BB /* LaunchScreen.storyboard */,
+				F398A0151E8A47B5004175BB /* Info.plist */,
+				F398A01B1E8A4899004175BB /* SwiftPocket1-Bridging-Header.h */,
 			);
 			path = SwiftPocket1;
 			sourceTree = "<group>";
@@ -95,13 +95,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3C58C421E83A2B800C43CB5 /* SwiftPocket1 */ = {
+		F398A0051E8A47B5004175BB /* SwiftPocket1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3C58C551E83A2B800C43CB5 /* Build configuration list for PBXNativeTarget "SwiftPocket1" */;
+			buildConfigurationList = F398A0181E8A47B5004175BB /* Build configuration list for PBXNativeTarget "SwiftPocket1" */;
 			buildPhases = (
-				F3C58C3F1E83A2B800C43CB5 /* Sources */,
-				F3C58C401E83A2B800C43CB5 /* Frameworks */,
-				F3C58C411E83A2B800C43CB5 /* Resources */,
+				F398A0021E8A47B5004175BB /* Sources */,
+				F398A0031E8A47B5004175BB /* Frameworks */,
+				F398A0041E8A47B5004175BB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -109,28 +109,28 @@
 			);
 			name = SwiftPocket1;
 			productName = SwiftPocket1;
-			productReference = F3C58C431E83A2B800C43CB5 /* SwiftPocket1.app */;
+			productReference = F398A0061E8A47B5004175BB /* SwiftPocket1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3C58C3B1E83A2B800C43CB5 /* Project object */ = {
+		F3989FFE1E8A47B5004175BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Takanori.H;
 				TargetAttributes = {
-					F3C58C421E83A2B800C43CB5 = {
-						CreatedOnToolsVersion = 8.2.1;
+					F398A0051E8A47B5004175BB = {
+						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = BN463B3322;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F3C58C3E1E83A2B800C43CB5 /* Build configuration list for PBXProject "SwiftPocket1" */;
+			buildConfigurationList = F398A0011E8A47B5004175BB /* Build configuration list for PBXProject "SwiftPocket1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -138,60 +138,60 @@
 				en,
 				Base,
 			);
-			mainGroup = F3C58C3A1E83A2B800C43CB5;
-			productRefGroup = F3C58C441E83A2B800C43CB5 /* Products */;
+			mainGroup = F3989FFD1E8A47B5004175BB;
+			productRefGroup = F398A0071E8A47B5004175BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3C58C421E83A2B800C43CB5 /* SwiftPocket1 */,
+				F398A0051E8A47B5004175BB /* SwiftPocket1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3C58C411E83A2B800C43CB5 /* Resources */ = {
+		F398A0041E8A47B5004175BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C58C661E83A2CD00C43CB5 /* search.png in Resources */,
-				F3C58C511E83A2B800C43CB5 /* LaunchScreen.storyboard in Resources */,
-				F3C58C621E83A2CD00C43CB5 /* done.png in Resources */,
-				F3C58C4E1E83A2B800C43CB5 /* Assets.xcassets in Resources */,
-				F3C58C4C1E83A2B800C43CB5 /* Main.storyboard in Resources */,
+				F398A0291E8A4899004175BB /* search.png in Resources */,
+				F398A0141E8A47B5004175BB /* LaunchScreen.storyboard in Resources */,
+				F398A0251E8A4899004175BB /* done.png in Resources */,
+				F398A0111E8A47B5004175BB /* Assets.xcassets in Resources */,
+				F398A00F1E8A47B5004175BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3C58C3F1E83A2B800C43CB5 /* Sources */ = {
+		F398A0021E8A47B5004175BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C58C491E83A2B800C43CB5 /* ViewController.swift in Sources */,
-				F3C58C631E83A2CD00C43CB5 /* NSString+Sha1.m in Sources */,
-				F3C58C651E83A2CD00C43CB5 /* RNCachingURLProtocol.m in Sources */,
-				F3C58C681E83A58E00C43CB5 /* ListTableViewController.swift in Sources */,
-				F3C58C641E83A2CD00C43CB5 /* Reachability.m in Sources */,
-				F3C58C471E83A2B800C43CB5 /* AppDelegate.swift in Sources */,
+				F398A00C1E8A47B5004175BB /* ViewController.swift in Sources */,
+				F398A0261E8A4899004175BB /* NSString+Sha1.m in Sources */,
+				F398A0281E8A4899004175BB /* RNCachingURLProtocol.m in Sources */,
+				F398A02B1E8A4AA6004175BB /* ListTableViewController.swift in Sources */,
+				F398A0271E8A4899004175BB /* Reachability.m in Sources */,
+				F398A00A1E8A47B5004175BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3C58C4A1E83A2B800C43CB5 /* Main.storyboard */ = {
+		F398A00D1E8A47B5004175BB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3C58C4B1E83A2B800C43CB5 /* Base */,
+				F398A00E1E8A47B5004175BB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3C58C4F1E83A2B800C43CB5 /* LaunchScreen.storyboard */ = {
+		F398A0121E8A47B5004175BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3C58C501E83A2B800C43CB5 /* Base */,
+				F398A0131E8A47B5004175BB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -199,11 +199,12 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F3C58C531E83A2B800C43CB5 /* Debug */ = {
+		F398A0161E8A47B5004175BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -239,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,11 +249,12 @@
 			};
 			name = Debug;
 		};
-		F3C58C541E83A2B800C43CB5 /* Release */ = {
+		F398A0171E8A47B5004175BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -282,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -290,7 +292,7 @@
 			};
 			name = Release;
 		};
-		F3C58C561E83A2B800C43CB5 /* Debug */ = {
+		F398A0191E8A47B5004175BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -306,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		F3C58C571E83A2B800C43CB5 /* Release */ = {
+		F398A01A1E8A47B5004175BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -324,24 +326,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3C58C3E1E83A2B800C43CB5 /* Build configuration list for PBXProject "SwiftPocket1" */ = {
+		F398A0011E8A47B5004175BB /* Build configuration list for PBXProject "SwiftPocket1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C58C531E83A2B800C43CB5 /* Debug */,
-				F3C58C541E83A2B800C43CB5 /* Release */,
+				F398A0161E8A47B5004175BB /* Debug */,
+				F398A0171E8A47B5004175BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3C58C551E83A2B800C43CB5 /* Build configuration list for PBXNativeTarget "SwiftPocket1" */ = {
+		F398A0181E8A47B5004175BB /* Build configuration list for PBXNativeTarget "SwiftPocket1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3C58C561E83A2B800C43CB5 /* Debug */,
-				F3C58C571E83A2B800C43CB5 /* Release */,
+				F398A0191E8A47B5004175BB /* Debug */,
+				F398A01A1E8A47B5004175BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3C58C3B1E83A2B800C43CB5 /* Project object */;
+	rootObject = F3989FFE1E8A47B5004175BB /* Project object */;
 }
