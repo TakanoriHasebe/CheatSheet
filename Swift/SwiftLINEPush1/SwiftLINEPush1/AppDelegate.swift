@@ -17,12 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        //アラートを出してユーザーに許可をとる 
+        //アラートを出してユーザーに許可をとる
         UNUserNotificationCenter.current().requestAuthorization(options:[.alert,.sound],completionHandler:{
             granted,error in
             
-            //エラーが出たときの箇所
-            })
+            //エラーが出たときの箇所
+            
+        })
         
         return true
     }

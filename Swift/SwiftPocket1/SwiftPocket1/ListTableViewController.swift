@@ -21,11 +21,32 @@ class ListTableViewController: UITableViewController {
     
     var webView:UIWebView = UIWebView()
     
+    // 選択されたセルの番号が入る変数
+    var selectedNumber:Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // webViewを初期化している
-        webView = UIWebView()
+        // webView = UIWebView()
+        
+        // 非表示にする
+        webView.isHidden = true
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        super.viewWillAppear(animated)
+        
+        if UserDefaults.standard.object(forKey: "titleArray") != nil{
+            
+            titleArray = UserDefaults.standard.object(forKey: "titleArray") as! [String]
+            urlArray = UserDefaults.standard.object(forKey: "urlArray") as! [String]
+            
+        }
+        
+        tableView.reloadData()
         
         // サイズを決定する
         webView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.height)
@@ -37,18 +58,53 @@ class ListTableViewController: UITableViewController {
         // 貼り付ける
         self.view.addSubview(webView)
         
+        webView.isHidden = true
+        
     }
+    
+    @IBAction func search(_ sender: AnyObject) {
+        
+        // サイズを決定する
+        webView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.height)
+        
+        let requestURL = URL(string: "https://www.google.co.jp")
+        let req = NSURLRequest(url: requestURL!)
+        webView.loadRequest(req as URLRequest)
+        
+        // 貼り付ける
+        self.view.addSubview(webView)
+        
+        webView.isHidden = false
+        
+    }
+    
 
     
     @IBAction func add(_ sender: AnyObject) {
         
+        // 非表示にしない
+        webView.isHidden = true
+        
         // WebViewに表示されているタイトルを配列の中に入れる
+        titleArray.append(webView.stringByEvaluatingJavaScript(from: "document.title")!)
         
         // WebViewに表示されているURLを配列の中に入れる
+        urlArray.append(webView.stringByEvaluatingJavaScript(from: "document.URL")!)
         
         // 配列をアプリ内へ保存する
+        UserDefaults.standard.set(titleArray, forKey: "titleArray")
+        UserDefaults.standard.set(titleArray, forKey: "urlArray")
         
+        if UserDefaults.standard.object(forKey: "titleArray") != nil{
+            
+            // 取り出した
+            titleArray = UserDefaults.standard.object(forKey: "titleArray") as! [String]
+            
+            urlArray = UserDefaults.standard.object(forKey: "urlArray") as! [String]
+            
+        }
         
+        tableView.reloadData()
         
     }
     
@@ -68,19 +124,45 @@ class ListTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return titleArray.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
+        label1 = cell.contentView.viewWithTag(1) as! UILabel
+        label2 = cell.contentView.viewWithTag(2) as! UILabel
+        
+        label1.text = titleArray[indexPath.row]
+        label2.text = urlArray[indexPath.row]
+        
         // Configure the cell...
 
         return cell
     }
     
-
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        selectedNumber = Int(indexPath.row)
+        
+        performSegue(withIdentifier: "next", sender: nil)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if (segue.identifier == "next"){
+            
+            let viewController:ViewController = segue.destination as! ViewController
+            
+            viewController.count = selectedNumber
+            
+        }
+        
+        
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

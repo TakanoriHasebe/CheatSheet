@@ -1,0 +1,12 @@
+PODS:
+  - AURCherryBlossomView (0.2.2)
+
+DEPENDENCIES:
+  - AURCherryBlossomView
+
+SPEC CHECKSUMS:
+  AURCherryBlossomView: 6c0f60d962a41f614add1f806f06a91e273f4f10
+
+PODFILE CHECKSUM: 3e842eb68c22e05dbfce495974a5e661cf109d8c
+
+COCOAPODS: 1.2.0
