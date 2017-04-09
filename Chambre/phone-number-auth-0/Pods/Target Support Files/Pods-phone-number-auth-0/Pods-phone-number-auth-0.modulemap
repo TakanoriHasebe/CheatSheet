@@ -1,6 +1,0 @@
-framework module Pods_phone_number_auth_0 {
-  umbrella header "Pods-phone-number-auth-0-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,6 @@
+framework module Pods_udemy_facebook_gmail_login {
+  umbrella header "Pods-udemy-facebook-gmail-login-umbrella.h"
+
+  export *
+  module * { export * }
+}
