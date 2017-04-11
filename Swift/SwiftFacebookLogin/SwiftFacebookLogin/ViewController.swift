@@ -63,6 +63,12 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate { // コピペ
         print("ログアウトしました")
     }
     
+    // コピペ
+    func buttonTapped(){
+        performSegue(withIdentifier: "target", sender: nil)
+    }
+    
+    /*
     @IBAction func facebookBtnTapped(_ sender: AnyObject) {
         
         let facebookLogin = FBSDKLoginManager()
@@ -87,13 +93,11 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate { // コピペ
         }
         
         
-    }
+    }*/
     
-    // コピペ
-    func buttonTapped(){
-        performSegue(withIdentifier: "target", sender: nil)
-    }
     
+    
+    /*
     // コピペ
     func firebaseAuth(_ credential: FIRAuthCredential){
         
@@ -106,7 +110,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate { // コピペ
             }
         })
         
-    }
+    }*/
 
 
 }
