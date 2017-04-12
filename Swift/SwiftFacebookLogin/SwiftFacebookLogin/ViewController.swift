@@ -11,9 +11,11 @@
  segueとstoryboard両方にidentifier
  がついているということに注意
  
- Facebookログインボタン以外のところは
+ Facebookログインボタンのプログラム以外のところは
  https://www.udemy.com/devslopes-ios10/learn/v4/t/lecture/5485180?start=0
  を参照に書かれている
+ Firebaseは以下を用いている
+ https://console.firebase.google.com/project/facebook-login-fd07d/authentication/users
  
  ***********************************/
 

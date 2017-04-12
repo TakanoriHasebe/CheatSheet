@@ -1,0 +1,6 @@
+framework module Pods_YoutubeFacebookLogin {
+  umbrella header "Pods-YoutubeFacebookLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
