@@ -10,17 +10,58 @@
 //
 //  ① Facebook developerの設定
 //  ② Firebaseの設定
-//
+//  ③ GoogleSignInの設定
 
 import UIKit
 import FBSDKLoginKit // ①
 import Firebase // ②
+import GoogleSignIn // ③
 
 
-class ViewController: UIViewController, FBSDKLoginButtonDelegate {
+class ViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        /*
+        // コピペ①
+        // Facebookログインのボタンの作成
+        let fbLoginButton = FBSDKLoginButton()
+        fbLoginButton.frame = CGRect(x: self.view.frame.size.width/10, y:self.view.frame.size.height/1.5, width: self.view.frame.size.width-(self.view.frame.size.width/10 + self.view.frame.size.width/10), height: self.view.frame.size.height / 15)
+        self.view.addSubview(fbLoginButton)
+        
+        // コピペ①
+        fbLoginButton.delegate = self
+        fbLoginButton.readPermissions = ["email"]*/
+        
+        // コピペ①
+        setupFacebookButton()
+        
+        setupGoogleButton()
+        
+        /*
+        // コピペ③
+        let googleButton = GIDSignInButton()
+        googleButton.frame = CGRect(x: self.view.frame.size.width/10, y: 100, width: self.view.frame.size.width-(self.view.frame.size.width/10 + self.view.frame.size.width/10), height: self.view.frame.size.height / 15)
+        self.view.addSubview(googleButton)
+        
+        GIDSignIn.sharedInstance().uiDelegate = self
+        */
+        
+    }
+    
+    fileprivate func setupGoogleButton(){
+        
+        // コピペ③
+        let googleButton = GIDSignInButton()
+        googleButton.frame = CGRect(x: self.view.frame.size.width/10, y: 100, width: self.view.frame.size.width-(self.view.frame.size.width/10 + self.view.frame.size.width/10), height: self.view.frame.size.height / 15)
+        self.view.addSubview(googleButton)
+        
+        GIDSignIn.sharedInstance().uiDelegate = self
+        
+    }
+    
+    fileprivate func setupFacebookButton(){
         
         // コピペ①
         // Facebookログインのボタンの作成
@@ -32,9 +73,8 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         fbLoginButton.delegate = self
         fbLoginButton.readPermissions = ["email"]
         
-        
-                
     }
+    
     
     // コピペ①
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
