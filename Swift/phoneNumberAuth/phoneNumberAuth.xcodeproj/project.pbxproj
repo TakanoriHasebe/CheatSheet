@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B497D4D32329D40DFBF7E0B /* Pods_phoneNumberAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF025344C61629A39AA6F80 /* Pods_phoneNumberAuth.framework */; };
+		F3A8B6D01EA891A4002FA1A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A8B6CF1EA891A4002FA1A9 /* AppDelegate.swift */; };
+		F3A8B6D21EA891A4002FA1A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A8B6D11EA891A4002FA1A9 /* ViewController.swift */; };
+		F3A8B6D51EA891A4002FA1A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A8B6D31EA891A4002FA1A9 /* Main.storyboard */; };
+		F3A8B6D71EA891A4002FA1A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A8B6D61EA891A4002FA1A9 /* Assets.xcassets */; };
+		F3A8B6DA1EA891A4002FA1A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A8B6D81EA891A4002FA1A9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06CD7D294EFB955B072BBB03 /* Pods-phoneNumberAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phoneNumberAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-phoneNumberAuth/Pods-phoneNumberAuth.release.xcconfig"; sourceTree = "<group>"; };
+		4669D570A22178726847F073 /* Pods-phoneNumberAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phoneNumberAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-phoneNumberAuth/Pods-phoneNumberAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		CAF025344C61629A39AA6F80 /* Pods_phoneNumberAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_phoneNumberAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A8B6CC1EA891A4002FA1A9 /* phoneNumberAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phoneNumberAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A8B6CF1EA891A4002FA1A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3A8B6D11EA891A4002FA1A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3A8B6D41EA891A4002FA1A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3A8B6D61EA891A4002FA1A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3A8B6D91EA891A4002FA1A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3A8B6DB1EA891A4002FA1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A8B6C91EA891A4002FA1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B497D4D32329D40DFBF7E0B /* Pods_phoneNumberAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B4072729DF115A9C99FAD14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4669D570A22178726847F073 /* Pods-phoneNumberAuth.debug.xcconfig */,
+				06CD7D294EFB955B072BBB03 /* Pods-phoneNumberAuth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C376C0FA937FA438F2C717A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF025344C61629A39AA6F80 /* Pods_phoneNumberAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3A8B6C31EA891A4002FA1A9 = {
+			isa = PBXGroup;
+			children = (
+				F3A8B6CE1EA891A4002FA1A9 /* phoneNumberAuth */,
+				F3A8B6CD1EA891A4002FA1A9 /* Products */,
+				5B4072729DF115A9C99FAD14 /* Pods */,
+				5C376C0FA937FA438F2C717A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3A8B6CD1EA891A4002FA1A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A8B6CC1EA891A4002FA1A9 /* phoneNumberAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3A8B6CE1EA891A4002FA1A9 /* phoneNumberAuth */ = {
+			isa = PBXGroup;
+			children = (
+				F3A8B6CF1EA891A4002FA1A9 /* AppDelegate.swift */,
+				F3A8B6D11EA891A4002FA1A9 /* ViewController.swift */,
+				F3A8B6D31EA891A4002FA1A9 /* Main.storyboard */,
+				F3A8B6D61EA891A4002FA1A9 /* Assets.xcassets */,
+				F3A8B6D81EA891A4002FA1A9 /* LaunchScreen.storyboard */,
+				F3A8B6DB1EA891A4002FA1A9 /* Info.plist */,
+			);
+			path = phoneNumberAuth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3A8B6CB1EA891A4002FA1A9 /* phoneNumberAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A8B6DE1EA891A4002FA1A9 /* Build configuration list for PBXNativeTarget "phoneNumberAuth" */;
+			buildPhases = (
+				0B97F7DCAED37DCA7390C49E /* [CP] Check Pods Manifest.lock */,
+				F3A8B6C81EA891A4002FA1A9 /* Sources */,
+				F3A8B6C91EA891A4002FA1A9 /* Frameworks */,
+				F3A8B6CA1EA891A4002FA1A9 /* Resources */,
+				5FB4099A1C784A4CDAF01833 /* [CP] Embed Pods Frameworks */,
+				C249702114C8F61EA331A20D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = phoneNumberAuth;
+			productName = phoneNumberAuth;
+			productReference = F3A8B6CC1EA891A4002FA1A9 /* phoneNumberAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3A8B6C41EA891A4002FA1A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Takanori.H;
+				TargetAttributes = {
+					F3A8B6CB1EA891A4002FA1A9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = BN463B3322;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3A8B6C71EA891A4002FA1A9 /* Build configuration list for PBXProject "phoneNumberAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3A8B6C31EA891A4002FA1A9;
+			productRefGroup = F3A8B6CD1EA891A4002FA1A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3A8B6CB1EA891A4002FA1A9 /* phoneNumberAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3A8B6CA1EA891A4002FA1A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A8B6DA1EA891A4002FA1A9 /* LaunchScreen.storyboard in Resources */,
+				F3A8B6D71EA891A4002FA1A9 /* Assets.xcassets in Resources */,
+				F3A8B6D51EA891A4002FA1A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B97F7DCAED37DCA7390C49E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FB4099A1C784A4CDAF01833 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-phoneNumberAuth/Pods-phoneNumberAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C249702114C8F61EA331A20D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-phoneNumberAuth/Pods-phoneNumberAuth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3A8B6C81EA891A4002FA1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A8B6D21EA891A4002FA1A9 /* ViewController.swift in Sources */,
+				F3A8B6D01EA891A4002FA1A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3A8B6D31EA891A4002FA1A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A8B6D41EA891A4002FA1A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3A8B6D81EA891A4002FA1A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A8B6D91EA891A4002FA1A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3A8B6DC1EA891A4002FA1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3A8B6DD1EA891A4002FA1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3A8B6DF1EA891A4002FA1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4669D570A22178726847F073 /* Pods-phoneNumberAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BN463B3322;
+				INFOPLIST_FILE = phoneNumberAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hasebe.phoneNumberAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3A8B6E01EA891A4002FA1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06CD7D294EFB955B072BBB03 /* Pods-phoneNumberAuth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BN463B3322;
+				INFOPLIST_FILE = phoneNumberAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hasebe.phoneNumberAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3A8B6C71EA891A4002FA1A9 /* Build configuration list for PBXProject "phoneNumberAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A8B6DC1EA891A4002FA1A9 /* Debug */,
+				F3A8B6DD1EA891A4002FA1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A8B6DE1EA891A4002FA1A9 /* Build configuration list for PBXNativeTarget "phoneNumberAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A8B6DF1EA891A4002FA1A9 /* Debug */,
+				F3A8B6E01EA891A4002FA1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3A8B6C41EA891A4002FA1A9 /* Project object */;
+}

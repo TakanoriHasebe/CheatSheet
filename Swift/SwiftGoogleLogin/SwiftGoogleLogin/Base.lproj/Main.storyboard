@@ -20,6 +20,16 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKm-pn-wtE">
+                                <rect key="frame" x="16" y="301" width="343" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Google_Btn_@4x"/>
+                                <connections>
+                                    <action selector="googleBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8pu-CC-mzf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
@@ -28,6 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
         <!--Next View Controller-->
         <scene sceneID="PHU-t8-ezI">
@@ -54,7 +65,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WVz-xf-uFi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="906.39999999999998" y="38.23088455772114"/>
+            <point key="canvasLocation" x="1065" y="125"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Google_Btn_@4x" width="1316" height="212"/>
+    </resources>
 </document>

@@ -39,6 +39,14 @@ class ViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
         
     }
     
+    
+    @IBAction func googleBtnTapped(_ sender: AnyObject) {
+        
+        
+        
+    }
+    
+    
     // コピペ
     // GoogleSignIn
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
