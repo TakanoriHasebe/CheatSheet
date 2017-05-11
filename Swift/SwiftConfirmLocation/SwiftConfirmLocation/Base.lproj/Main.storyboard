@@ -20,7 +20,18 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MapConfrim" translatesAutoresizingMaskIntoConstraints="NO" id="wRs-t7-ZOT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wRs-t7-ZOT" secondAttribute="bottom" id="Jvg-Su-ncX"/>
+                            <constraint firstAttribute="trailing" secondItem="wRs-t7-ZOT" secondAttribute="trailing" id="hsF-Xc-CKy"/>
+                            <constraint firstItem="wRs-t7-ZOT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tr4-SJ-AgC"/>
+                            <constraint firstItem="wRs-t7-ZOT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yFL-YT-Qrc"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="eUs-J4-plg" kind="presentation" identifier="target" id="2Yr-6b-mmc"/>
@@ -28,7 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28" y="125"/>
+            <point key="canvasLocation" x="28" y="124.58770614692655"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qEk-DS-Sei">
@@ -59,4 +70,7 @@
             <point key="canvasLocation" x="935" y="125"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="MapConfrim" width="750" height="1334"/>
+    </resources>
 </document>

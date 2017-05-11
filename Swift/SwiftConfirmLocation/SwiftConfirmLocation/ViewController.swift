@@ -10,7 +10,7 @@ import UIKit
 import CoreLocation
 
 class ViewController: UIViewController {
-     var locationManager: CLLocationManager!
+    var locationManager: CLLocationManager!
     
     override func viewDidLoad() {
         super.viewDidLoad()
