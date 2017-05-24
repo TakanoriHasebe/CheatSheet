@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A956A4B11F9E4E29CC7E6B06 /* Pods_SwiftPinterestMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504FD5E7D7F7257FC5D28209 /* Pods_SwiftPinterestMotion.framework */; };
+		F3041FDB1ED5704300181CA1 /* CPMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3041FD81ED5704300181CA1 /* CPMenuAnimator.swift */; };
+		F3041FDC1ED5704300181CA1 /* CPMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3041FD91ED5704300181CA1 /* CPMenuButton.swift */; };
+		F3041FDD1ED5704300181CA1 /* CPMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3041FDA1ED5704300181CA1 /* CPMenuView.swift */; };
+		F3D42CBE1ED56D91007BFBC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D42CBD1ED56D91007BFBC5 /* AppDelegate.swift */; };
+		F3D42CC01ED56D91007BFBC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D42CBF1ED56D91007BFBC5 /* ViewController.swift */; };
+		F3D42CC31ED56D91007BFBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D42CC11ED56D91007BFBC5 /* Main.storyboard */; };
+		F3D42CC51ED56D91007BFBC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D42CC41ED56D91007BFBC5 /* Assets.xcassets */; };
+		F3D42CC81ED56D91007BFBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D42CC61ED56D91007BFBC5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		504FD5E7D7F7257FC5D28209 /* Pods_SwiftPinterestMotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPinterestMotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5752A35BE3645039F05E91E6 /* Pods-SwiftPinterestMotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPinterestMotion.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPinterestMotion/Pods-SwiftPinterestMotion.release.xcconfig"; sourceTree = "<group>"; };
+		C10ED98ED1EA04CA289573BE /* Pods-SwiftPinterestMotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPinterestMotion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPinterestMotion/Pods-SwiftPinterestMotion.debug.xcconfig"; sourceTree = "<group>"; };
+		F3041FD81ED5704300181CA1 /* CPMenuAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPMenuAnimator.swift; sourceTree = "<group>"; };
+		F3041FD91ED5704300181CA1 /* CPMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPMenuButton.swift; sourceTree = "<group>"; };
+		F3041FDA1ED5704300181CA1 /* CPMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPMenuView.swift; sourceTree = "<group>"; };
+		F3D42CBA1ED56D91007BFBC5 /* SwiftPinterestMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPinterestMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D42CBD1ED56D91007BFBC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3D42CBF1ED56D91007BFBC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3D42CC21ED56D91007BFBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3D42CC41ED56D91007BFBC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3D42CC71ED56D91007BFBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3D42CC91ED56D91007BFBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3D42CB71ED56D91007BFBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A956A4B11F9E4E29CC7E6B06 /* Pods_SwiftPinterestMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D23431D7E7DFA75DCA61956 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C10ED98ED1EA04CA289573BE /* Pods-SwiftPinterestMotion.debug.xcconfig */,
+				5752A35BE3645039F05E91E6 /* Pods-SwiftPinterestMotion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB088A3AFA64CE85212916B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				504FD5E7D7F7257FC5D28209 /* Pods_SwiftPinterestMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3D42CB11ED56D91007BFBC5 = {
+			isa = PBXGroup;
+			children = (
+				F3D42CBC1ED56D91007BFBC5 /* SwiftPinterestMotion */,
+				F3D42CBB1ED56D91007BFBC5 /* Products */,
+				4D23431D7E7DFA75DCA61956 /* Pods */,
+				EB088A3AFA64CE85212916B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3D42CBB1ED56D91007BFBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3D42CBA1ED56D91007BFBC5 /* SwiftPinterestMotion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3D42CBC1ED56D91007BFBC5 /* SwiftPinterestMotion */ = {
+			isa = PBXGroup;
+			children = (
+				F3041FD81ED5704300181CA1 /* CPMenuAnimator.swift */,
+				F3041FD91ED5704300181CA1 /* CPMenuButton.swift */,
+				F3041FDA1ED5704300181CA1 /* CPMenuView.swift */,
+				F3D42CBD1ED56D91007BFBC5 /* AppDelegate.swift */,
+				F3D42CBF1ED56D91007BFBC5 /* ViewController.swift */,
+				F3D42CC11ED56D91007BFBC5 /* Main.storyboard */,
+				F3D42CC41ED56D91007BFBC5 /* Assets.xcassets */,
+				F3D42CC61ED56D91007BFBC5 /* LaunchScreen.storyboard */,
+				F3D42CC91ED56D91007BFBC5 /* Info.plist */,
+			);
+			path = SwiftPinterestMotion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3D42CB91ED56D91007BFBC5 /* SwiftPinterestMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D42CCC1ED56D91007BFBC5 /* Build configuration list for PBXNativeTarget "SwiftPinterestMotion" */;
+			buildPhases = (
+				7699A489736B5F881154BEC2 /* [CP] Check Pods Manifest.lock */,
+				F3D42CB61ED56D91007BFBC5 /* Sources */,
+				F3D42CB71ED56D91007BFBC5 /* Frameworks */,
+				F3D42CB81ED56D91007BFBC5 /* Resources */,
+				D7EC2C0EC39E696A947529A5 /* [CP] Embed Pods Frameworks */,
+				7A7B2D62A130E6FD09852520 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPinterestMotion;
+			productName = SwiftPinterestMotion;
+			productReference = F3D42CBA1ED56D91007BFBC5 /* SwiftPinterestMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3D42CB21ED56D91007BFBC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Takanori.H;
+				TargetAttributes = {
+					F3D42CB91ED56D91007BFBC5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BN463B3322;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3D42CB51ED56D91007BFBC5 /* Build configuration list for PBXProject "SwiftPinterestMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3D42CB11ED56D91007BFBC5;
+			productRefGroup = F3D42CBB1ED56D91007BFBC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3D42CB91ED56D91007BFBC5 /* SwiftPinterestMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3D42CB81ED56D91007BFBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D42CC81ED56D91007BFBC5 /* LaunchScreen.storyboard in Resources */,
+				F3D42CC51ED56D91007BFBC5 /* Assets.xcassets in Resources */,
+				F3D42CC31ED56D91007BFBC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7699A489736B5F881154BEC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A7B2D62A130E6FD09852520 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPinterestMotion/Pods-SwiftPinterestMotion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7EC2C0EC39E696A947529A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPinterestMotion/Pods-SwiftPinterestMotion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3D42CB61ED56D91007BFBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D42CC01ED56D91007BFBC5 /* ViewController.swift in Sources */,
+				F3041FDC1ED5704300181CA1 /* CPMenuButton.swift in Sources */,
+				F3D42CBE1ED56D91007BFBC5 /* AppDelegate.swift in Sources */,
+				F3041FDB1ED5704300181CA1 /* CPMenuAnimator.swift in Sources */,
+				F3041FDD1ED5704300181CA1 /* CPMenuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3D42CC11ED56D91007BFBC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D42CC21ED56D91007BFBC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3D42CC61ED56D91007BFBC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D42CC71ED56D91007BFBC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3D42CCA1ED56D91007BFBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3D42CCB1ED56D91007BFBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3D42CCD1ED56D91007BFBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10ED98ED1EA04CA289573BE /* Pods-SwiftPinterestMotion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BN463B3322;
+				INFOPLIST_FILE = SwiftPinterestMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hasebe.SwiftPinterestMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3D42CCE1ED56D91007BFBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5752A35BE3645039F05E91E6 /* Pods-SwiftPinterestMotion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BN463B3322;
+				INFOPLIST_FILE = SwiftPinterestMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hasebe.SwiftPinterestMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3D42CB51ED56D91007BFBC5 /* Build configuration list for PBXProject "SwiftPinterestMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D42CCA1ED56D91007BFBC5 /* Debug */,
+				F3D42CCB1ED56D91007BFBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D42CCC1ED56D91007BFBC5 /* Build configuration list for PBXNativeTarget "SwiftPinterestMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D42CCD1ED56D91007BFBC5 /* Debug */,
+				F3D42CCE1ED56D91007BFBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3D42CB21ED56D91007BFBC5 /* Project object */;
+}

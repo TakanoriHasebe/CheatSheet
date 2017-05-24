@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084637E122963C794B721E3ACDA6CD15 /* CPMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9EDDFC4D545DDC68EEAB64B73023F3 /* CPMenuButton.swift */; };
+		21DA7AE55A3DFD3359FB9DF881072851 /* Pods-SwiftPinterestMotion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 515DFDFB953D6140C6853AD6D45E02E6 /* Pods-SwiftPinterestMotion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DE75C68B64A369CA950CD090FF76614 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		6B25912AF2789F651B48E09EF11196AF /* CPMenuView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E173623525AC02D0F9D4B05A51652FFE /* CPMenuView-dummy.m */; };
+		7768A0BEE46ED323ADE11BF355FE577B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7BA4B67154991ED32E463A75EB5772A4 /* CPMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063D22E0CE4BF50649CB0FE185338D1 /* CPMenuView.swift */; };
+		8DA75952CD819B63D155E2C33AB10C32 /* Pods-SwiftPinterestMotion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE7E332EE58962CA7677382A1163C2E /* Pods-SwiftPinterestMotion-dummy.m */; };
+		B750C51683D50CC229FA35BC7914BCFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F77958DE7F06C22FD2A87CC46F606C6D /* CPMenuView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCCD222136370A15BD513D929F1EDF0 /* CPMenuView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7445908934356B392ED47D0CA42051 /* CPMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7514BC6F202FBB4256118259472D900A /* CPMenuAnimator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E11F973F02E4D257F42CC3EC346023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FF227460D3543A8AA744315FBE857E8;
+			remoteInfo = CPMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DCCD222136370A15BD513D929F1EDF0 /* CPMenuView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPMenuView-umbrella.h"; sourceTree = "<group>"; };
+		2F8A33BA19FBDDD0AA7E43C42A43CA72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32056A6297DAAA7770ECE9C03D27BBD0 /* CPMenuView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPMenuView.xcconfig; sourceTree = "<group>"; };
+		36D4414D197CA2AAC96D260DA9D8677C /* Pods-SwiftPinterestMotion-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPinterestMotion-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FA4D8D17BC8678984A93697519B4647 /* Pods_SwiftPinterestMotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftPinterestMotion.framework; path = "Pods-SwiftPinterestMotion.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		486346665C7C4ED235F6598D899E6B2E /* CPMenuView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CPMenuView.modulemap; sourceTree = "<group>"; };
+		515DFDFB953D6140C6853AD6D45E02E6 /* Pods-SwiftPinterestMotion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftPinterestMotion-umbrella.h"; sourceTree = "<group>"; };
+		6E6F80F43D765E777D1FD0E800A77894 /* Pods-SwiftPinterestMotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPinterestMotion.debug.xcconfig"; sourceTree = "<group>"; };
+		7063D22E0CE4BF50649CB0FE185338D1 /* CPMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPMenuView.swift; path = CPMenuView/CPMenuView.swift; sourceTree = "<group>"; };
+		7514BC6F202FBB4256118259472D900A /* CPMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPMenuAnimator.swift; path = CPMenuView/CPMenuAnimator.swift; sourceTree = "<group>"; };
+		7B9493E2DB6416240D63456F23B078A5 /* CPMenuView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPMenuView-prefix.pch"; sourceTree = "<group>"; };
+		82CBEC6108FDE36AB7727E97305710CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A527AB837E0004A51E0A173422D5CF3E /* CPMenuView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CPMenuView.framework; path = CPMenuView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A621578571B0129E9AF4BC1C24F1C6BF /* Pods-SwiftPinterestMotion-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPinterestMotion-resources.sh"; sourceTree = "<group>"; };
+		AAE7E332EE58962CA7677382A1163C2E /* Pods-SwiftPinterestMotion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftPinterestMotion-dummy.m"; sourceTree = "<group>"; };
+		AC9EDDFC4D545DDC68EEAB64B73023F3 /* CPMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPMenuButton.swift; path = CPMenuView/CPMenuButton.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD7A7D26FD10D42F645836BB01F5C370 /* Pods-SwiftPinterestMotion-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPinterestMotion-acknowledgements.plist"; sourceTree = "<group>"; };
+		C11D121C480EE140886BF5DFB576E70A /* Pods-SwiftPinterestMotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPinterestMotion.release.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E173623525AC02D0F9D4B05A51652FFE /* CPMenuView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPMenuView-dummy.m"; sourceTree = "<group>"; };
+		F51A7F454BDC0FBB71DA0E685D7C5749 /* Pods-SwiftPinterestMotion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftPinterestMotion.modulemap"; sourceTree = "<group>"; };
+		F921424B743DB52BEF6B02BA41BA472E /* Pods-SwiftPinterestMotion-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPinterestMotion-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400FC2AA00EEC67EA02E2E4DF4BEA625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7768A0BEE46ED323ADE11BF355FE577B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5066A941EFE4C94CBDB7E25167198C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B750C51683D50CC229FA35BC7914BCFD /* Foundation.framework in Frameworks */,
+				2DE75C68B64A369CA950CD090FF76614 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				F8AB7E4BAA516788F30A380992BB2968 /* Pods */,
+				C311898A5AD4E462A7E1A72EB5F72E2C /* Products */,
+				8EDAC66A6EADE1BD1B8BF686943ADFA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EDAC66A6EADE1BD1B8BF686943ADFA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				993B6B60E2082EA01A98E571CFCA9822 /* Pods-SwiftPinterestMotion */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		993B6B60E2082EA01A98E571CFCA9822 /* Pods-SwiftPinterestMotion */ = {
+			isa = PBXGroup;
+			children = (
+				82CBEC6108FDE36AB7727E97305710CC /* Info.plist */,
+				F51A7F454BDC0FBB71DA0E685D7C5749 /* Pods-SwiftPinterestMotion.modulemap */,
+				36D4414D197CA2AAC96D260DA9D8677C /* Pods-SwiftPinterestMotion-acknowledgements.markdown */,
+				BD7A7D26FD10D42F645836BB01F5C370 /* Pods-SwiftPinterestMotion-acknowledgements.plist */,
+				AAE7E332EE58962CA7677382A1163C2E /* Pods-SwiftPinterestMotion-dummy.m */,
+				F921424B743DB52BEF6B02BA41BA472E /* Pods-SwiftPinterestMotion-frameworks.sh */,
+				A621578571B0129E9AF4BC1C24F1C6BF /* Pods-SwiftPinterestMotion-resources.sh */,
+				515DFDFB953D6140C6853AD6D45E02E6 /* Pods-SwiftPinterestMotion-umbrella.h */,
+				6E6F80F43D765E777D1FD0E800A77894 /* Pods-SwiftPinterestMotion.debug.xcconfig */,
+				C11D121C480EE140886BF5DFB576E70A /* Pods-SwiftPinterestMotion.release.xcconfig */,
+			);
+			name = "Pods-SwiftPinterestMotion";
+			path = "Target Support Files/Pods-SwiftPinterestMotion";
+			sourceTree = "<group>";
+		};
+		C311898A5AD4E462A7E1A72EB5F72E2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A527AB837E0004A51E0A173422D5CF3E /* CPMenuView.framework */,
+				3FA4D8D17BC8678984A93697519B4647 /* Pods_SwiftPinterestMotion.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E782C8C7CC38D62DB63B666F250809AB /* CPMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				7514BC6F202FBB4256118259472D900A /* CPMenuAnimator.swift */,
+				AC9EDDFC4D545DDC68EEAB64B73023F3 /* CPMenuButton.swift */,
+				7063D22E0CE4BF50649CB0FE185338D1 /* CPMenuView.swift */,
+				F4D7F10300ECE15E472793423D9B94B9 /* Support Files */,
+			);
+			name = CPMenuView;
+			path = CPMenuView;
+			sourceTree = "<group>";
+		};
+		F4D7F10300ECE15E472793423D9B94B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				486346665C7C4ED235F6598D899E6B2E /* CPMenuView.modulemap */,
+				32056A6297DAAA7770ECE9C03D27BBD0 /* CPMenuView.xcconfig */,
+				E173623525AC02D0F9D4B05A51652FFE /* CPMenuView-dummy.m */,
+				7B9493E2DB6416240D63456F23B078A5 /* CPMenuView-prefix.pch */,
+				0DCCD222136370A15BD513D929F1EDF0 /* CPMenuView-umbrella.h */,
+				2F8A33BA19FBDDD0AA7E43C42A43CA72 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CPMenuView";
+			sourceTree = "<group>";
+		};
+		F8AB7E4BAA516788F30A380992BB2968 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E782C8C7CC38D62DB63B666F250809AB /* CPMenuView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D1D66C1C6603EAD3DE2BED03D3A12A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DA7AE55A3DFD3359FB9DF881072851 /* Pods-SwiftPinterestMotion-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417E8C09501D02153B62CF90EA5C1C6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77958DE7F06C22FD2A87CC46F606C6D /* CPMenuView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FF227460D3543A8AA744315FBE857E8 /* CPMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFAE69CDEA3524C489A59AD1C7F579D /* Build configuration list for PBXNativeTarget "CPMenuView" */;
+			buildPhases = (
+				FEFEA628D371B3B46D1FF477400AB1E9 /* Sources */,
+				5066A941EFE4C94CBDB7E25167198C7A /* Frameworks */,
+				417E8C09501D02153B62CF90EA5C1C6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPMenuView;
+			productName = CPMenuView;
+			productReference = A527AB837E0004A51E0A173422D5CF3E /* CPMenuView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD0B57CC8C414CC379310340E5A256CB /* Pods-SwiftPinterestMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05736B8CF70A885BFABC566696B4396 /* Build configuration list for PBXNativeTarget "Pods-SwiftPinterestMotion" */;
+			buildPhases = (
+				0AE0FC2A57F359DFFB0816B825FBB616 /* Sources */,
+				400FC2AA00EEC67EA02E2E4DF4BEA625 /* Frameworks */,
+				0D1D66C1C6603EAD3DE2BED03D3A12A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B3C8BD7193043B55D30BDD9012F319 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftPinterestMotion";
+			productName = "Pods-SwiftPinterestMotion";
+			productReference = 3FA4D8D17BC8678984A93697519B4647 /* Pods_SwiftPinterestMotion.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C311898A5AD4E462A7E1A72EB5F72E2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FF227460D3543A8AA744315FBE857E8 /* CPMenuView */,
+				BD0B57CC8C414CC379310340E5A256CB /* Pods-SwiftPinterestMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE0FC2A57F359DFFB0816B825FBB616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA75952CD819B63D155E2C33AB10C32 /* Pods-SwiftPinterestMotion-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFEA628D371B3B46D1FF477400AB1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7445908934356B392ED47D0CA42051 /* CPMenuAnimator.swift in Sources */,
+				084637E122963C794B721E3ACDA6CD15 /* CPMenuButton.swift in Sources */,
+				6B25912AF2789F651B48E09EF11196AF /* CPMenuView-dummy.m in Sources */,
+				7BA4B67154991ED32E463A75EB5772A4 /* CPMenuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3B3C8BD7193043B55D30BDD9012F319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CPMenuView;
+			target = 0FF227460D3543A8AA744315FBE857E8 /* CPMenuView */;
+			targetProxy = 84E11F973F02E4D257F42CC3EC346023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		114E92C301E06E4C882C2B3D34FE8EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11D121C480EE140886BF5DFB576E70A /* Pods-SwiftPinterestMotion.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftPinterestMotion/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftPinterestMotion/Pods-SwiftPinterestMotion.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftPinterestMotion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D9E5899FD412A017380763855F24A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6F80F43D765E777D1FD0E800A77894 /* Pods-SwiftPinterestMotion.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftPinterestMotion/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftPinterestMotion/Pods-SwiftPinterestMotion.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftPinterestMotion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D435BC3C0054D47FEBE684E8374A921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32056A6297DAAA7770ECE9C03D27BBD0 /* CPMenuView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CPMenuView/CPMenuView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPMenuView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CPMenuView/CPMenuView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CPMenuView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEBA984D86218FC07DEC85E027052139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32056A6297DAAA7770ECE9C03D27BBD0 /* CPMenuView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CPMenuView/CPMenuView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPMenuView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CPMenuView/CPMenuView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CPMenuView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFAE69CDEA3524C489A59AD1C7F579D /* Build configuration list for PBXNativeTarget "CPMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA984D86218FC07DEC85E027052139 /* Debug */,
+				D435BC3C0054D47FEBE684E8374A921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05736B8CF70A885BFABC566696B4396 /* Build configuration list for PBXNativeTarget "Pods-SwiftPinterestMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9E5899FD412A017380763855F24A2C /* Debug */,
+				114E92C301E06E4C882C2B3D34FE8EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
