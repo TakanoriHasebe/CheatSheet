@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>331922829346-3jmr2cvdgto2elf5pi0t7p3009vmhgfp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.331922829346-3jmr2cvdgto2elf5pi0t7p3009vmhgfp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAiBkhzNN2CVhVPVXC_nrPVQok-VPk6qog</string>
+	<key>GCM_SENDER_ID</key>
+	<string>331922829346</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.hasebe.Happystagram</string>
+	<key>PROJECT_ID</key>
+	<string>happystagram-91cb5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>happystagram-91cb5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:331922829346:ios:6ee9c7f95e30e928</string>
+	<key>DATABASE_URL</key>
+	<string>https://happystagram-91cb5.firebaseio.com</string>
+</dict>
+</plist>
