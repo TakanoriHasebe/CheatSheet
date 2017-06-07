@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SwiftCollectionView1.xcscheme</key>
+		<key>SwiftGameofChats.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F3989AE41EE6883C00538E6C</key>
+		<key>F3E1FE091EE8107A00FF6A6E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

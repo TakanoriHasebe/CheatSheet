@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3989AE91EE6883C00538E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3989AE81EE6883C00538E6C /* AppDelegate.swift */; };
-		F3989AEB1EE6883C00538E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3989AEA1EE6883C00538E6C /* ViewController.swift */; };
-		F3989AEE1EE6883C00538E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3989AEC1EE6883C00538E6C /* Main.storyboard */; };
-		F3989AF01EE6883C00538E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3989AEF1EE6883C00538E6C /* Assets.xcassets */; };
-		F3989AF31EE6883C00538E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3989AF11EE6883C00538E6C /* LaunchScreen.storyboard */; };
-		F3989AFB1EE68A0100538E6C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3989AFA1EE68A0100538E6C /* CustomCell.swift */; };
+		F3E1FE0E1EE8107A00FF6A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1FE0D1EE8107A00FF6A6E /* AppDelegate.swift */; };
+		F3E1FE101EE8107A00FF6A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1FE0F1EE8107A00FF6A6E /* ViewController.swift */; };
+		F3E1FE131EE8107A00FF6A6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E1FE111EE8107A00FF6A6E /* Main.storyboard */; };
+		F3E1FE151EE8107A00FF6A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E1FE141EE8107A00FF6A6E /* Assets.xcassets */; };
+		F3E1FE181EE8107A00FF6A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E1FE161EE8107A00FF6A6E /* LaunchScreen.storyboard */; };
+		F3E1FE211EE813B100FF6A6E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1FE201EE813B100FF6A6E /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3989AE51EE6883C00538E6C /* SwiftCollectionView1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCollectionView1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3989AE81EE6883C00538E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3989AEA1EE6883C00538E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3989AED1EE6883C00538E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3989AEF1EE6883C00538E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3989AF21EE6883C00538E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F3989AF41EE6883C00538E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3989AFA1EE68A0100538E6C /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F3E1FE0A1EE8107A00FF6A6E /* SwiftGameofChats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGameofChats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E1FE0D1EE8107A00FF6A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3E1FE0F1EE8107A00FF6A6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3E1FE121EE8107A00FF6A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3E1FE141EE8107A00FF6A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E1FE171EE8107A00FF6A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3E1FE191EE8107A00FF6A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E1FE201EE813B100FF6A6E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3989AE21EE6883C00538E6C /* Frameworks */ = {
+		F3E1FE071EE8107A00FF6A6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,74 +37,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3989ADC1EE6883C00538E6C = {
+		F3E1FE011EE8107A00FF6A6E = {
 			isa = PBXGroup;
 			children = (
-				F3989AE71EE6883C00538E6C /* SwiftCollectionView1 */,
-				F3989AE61EE6883C00538E6C /* Products */,
+				F3E1FE0C1EE8107A00FF6A6E /* SwiftGameofChats */,
+				F3E1FE0B1EE8107A00FF6A6E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3989AE61EE6883C00538E6C /* Products */ = {
+		F3E1FE0B1EE8107A00FF6A6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3989AE51EE6883C00538E6C /* SwiftCollectionView1.app */,
+				F3E1FE0A1EE8107A00FF6A6E /* SwiftGameofChats.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3989AE71EE6883C00538E6C /* SwiftCollectionView1 */ = {
+		F3E1FE0C1EE8107A00FF6A6E /* SwiftGameofChats */ = {
 			isa = PBXGroup;
 			children = (
-				F3989AE81EE6883C00538E6C /* AppDelegate.swift */,
-				F3989AEA1EE6883C00538E6C /* ViewController.swift */,
-				F3989AEC1EE6883C00538E6C /* Main.storyboard */,
-				F3989AFA1EE68A0100538E6C /* CustomCell.swift */,
-				F3989AEF1EE6883C00538E6C /* Assets.xcassets */,
-				F3989AF11EE6883C00538E6C /* LaunchScreen.storyboard */,
-				F3989AF41EE6883C00538E6C /* Info.plist */,
+				F3E1FE1F1EE8136F00FF6A6E /* Controller */,
+				F3E1FE0D1EE8107A00FF6A6E /* AppDelegate.swift */,
+				F3E1FE111EE8107A00FF6A6E /* Main.storyboard */,
+				F3E1FE141EE8107A00FF6A6E /* Assets.xcassets */,
+				F3E1FE161EE8107A00FF6A6E /* LaunchScreen.storyboard */,
+				F3E1FE191EE8107A00FF6A6E /* Info.plist */,
 			);
-			path = SwiftCollectionView1;
+			path = SwiftGameofChats;
+			sourceTree = "<group>";
+		};
+		F3E1FE1F1EE8136F00FF6A6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3E1FE201EE813B100FF6A6E /* LoginController.swift */,
+				F3E1FE0F1EE8107A00FF6A6E /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3989AE41EE6883C00538E6C /* SwiftCollectionView1 */ = {
+		F3E1FE091EE8107A00FF6A6E /* SwiftGameofChats */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3989AF71EE6883C00538E6C /* Build configuration list for PBXNativeTarget "SwiftCollectionView1" */;
+			buildConfigurationList = F3E1FE1C1EE8107A00FF6A6E /* Build configuration list for PBXNativeTarget "SwiftGameofChats" */;
 			buildPhases = (
-				F3989AE11EE6883C00538E6C /* Sources */,
-				F3989AE21EE6883C00538E6C /* Frameworks */,
-				F3989AE31EE6883C00538E6C /* Resources */,
+				F3E1FE061EE8107A00FF6A6E /* Sources */,
+				F3E1FE071EE8107A00FF6A6E /* Frameworks */,
+				F3E1FE081EE8107A00FF6A6E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftCollectionView1;
-			productName = SwiftCollectionView1;
-			productReference = F3989AE51EE6883C00538E6C /* SwiftCollectionView1.app */;
+			name = SwiftGameofChats;
+			productName = SwiftGameofChats;
+			productReference = F3E1FE0A1EE8107A00FF6A6E /* SwiftGameofChats.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3989ADD1EE6883C00538E6C /* Project object */ = {
+		F3E1FE021EE8107A00FF6A6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Takanori.H;
 				TargetAttributes = {
-					F3989AE41EE6883C00538E6C = {
+					F3E1FE091EE8107A00FF6A6E = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = BN463B3322;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F3989AE01EE6883C00538E6C /* Build configuration list for PBXProject "SwiftCollectionView1" */;
+			buildConfigurationList = F3E1FE051EE8107A00FF6A6E /* Build configuration list for PBXProject "SwiftGameofChats" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,55 +120,55 @@
 				en,
 				Base,
 			);
-			mainGroup = F3989ADC1EE6883C00538E6C;
-			productRefGroup = F3989AE61EE6883C00538E6C /* Products */;
+			mainGroup = F3E1FE011EE8107A00FF6A6E;
+			productRefGroup = F3E1FE0B1EE8107A00FF6A6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3989AE41EE6883C00538E6C /* SwiftCollectionView1 */,
+				F3E1FE091EE8107A00FF6A6E /* SwiftGameofChats */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3989AE31EE6883C00538E6C /* Resources */ = {
+		F3E1FE081EE8107A00FF6A6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3989AF31EE6883C00538E6C /* LaunchScreen.storyboard in Resources */,
-				F3989AF01EE6883C00538E6C /* Assets.xcassets in Resources */,
-				F3989AEE1EE6883C00538E6C /* Main.storyboard in Resources */,
+				F3E1FE181EE8107A00FF6A6E /* LaunchScreen.storyboard in Resources */,
+				F3E1FE151EE8107A00FF6A6E /* Assets.xcassets in Resources */,
+				F3E1FE131EE8107A00FF6A6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3989AE11EE6883C00538E6C /* Sources */ = {
+		F3E1FE061EE8107A00FF6A6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3989AEB1EE6883C00538E6C /* ViewController.swift in Sources */,
-				F3989AFB1EE68A0100538E6C /* CustomCell.swift in Sources */,
-				F3989AE91EE6883C00538E6C /* AppDelegate.swift in Sources */,
+				F3E1FE101EE8107A00FF6A6E /* ViewController.swift in Sources */,
+				F3E1FE211EE813B100FF6A6E /* LoginController.swift in Sources */,
+				F3E1FE0E1EE8107A00FF6A6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3989AEC1EE6883C00538E6C /* Main.storyboard */ = {
+		F3E1FE111EE8107A00FF6A6E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3989AED1EE6883C00538E6C /* Base */,
+				F3E1FE121EE8107A00FF6A6E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3989AF11EE6883C00538E6C /* LaunchScreen.storyboard */ = {
+		F3E1FE161EE8107A00FF6A6E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3989AF21EE6883C00538E6C /* Base */,
+				F3E1FE171EE8107A00FF6A6E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,7 +176,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F3989AF51EE6883C00538E6C /* Debug */ = {
+		F3E1FE1A1EE8107A00FF6A6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		F3989AF61EE6883C00538E6C /* Release */ = {
+		F3E1FE1B1EE8107A00FF6A6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,27 +269,27 @@
 			};
 			name = Release;
 		};
-		F3989AF81EE6883C00538E6C /* Debug */ = {
+		F3E1FE1D1EE8107A00FF6A6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BN463B3322;
-				INFOPLIST_FILE = SwiftCollectionView1/Info.plist;
+				INFOPLIST_FILE = SwiftGameofChats/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.hasebe.SwiftCollectionView1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hasebe.SwiftGameofChats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		F3989AF91EE6883C00538E6C /* Release */ = {
+		F3E1FE1E1EE8107A00FF6A6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BN463B3322;
-				INFOPLIST_FILE = SwiftCollectionView1/Info.plist;
+				INFOPLIST_FILE = SwiftGameofChats/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.hasebe.SwiftCollectionView1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hasebe.SwiftGameofChats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -290,24 +298,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3989AE01EE6883C00538E6C /* Build configuration list for PBXProject "SwiftCollectionView1" */ = {
+		F3E1FE051EE8107A00FF6A6E /* Build configuration list for PBXProject "SwiftGameofChats" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3989AF51EE6883C00538E6C /* Debug */,
-				F3989AF61EE6883C00538E6C /* Release */,
+				F3E1FE1A1EE8107A00FF6A6E /* Debug */,
+				F3E1FE1B1EE8107A00FF6A6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3989AF71EE6883C00538E6C /* Build configuration list for PBXNativeTarget "SwiftCollectionView1" */ = {
+		F3E1FE1C1EE8107A00FF6A6E /* Build configuration list for PBXNativeTarget "SwiftGameofChats" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3989AF81EE6883C00538E6C /* Debug */,
-				F3989AF91EE6883C00538E6C /* Release */,
+				F3E1FE1D1EE8107A00FF6A6E /* Debug */,
+				F3E1FE1E1EE8107A00FF6A6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3989ADD1EE6883C00538E6C /* Project object */;
+	rootObject = F3E1FE021EE8107A00FF6A6E /* Project object */;
 }

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SwiftCollectionView1
+//  SwiftGameofChats
 //
-//  Created by Takanori.H on 2017/06/06.
+//  Created by Takanori.H on 2017/06/07.
 //  Copyright © 2017年 Takanori.H. All rights reserved.
 //
 
@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        
         return true
     }
 
