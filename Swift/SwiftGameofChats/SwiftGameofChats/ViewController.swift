@@ -13,11 +13,16 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        /*
+        let ref = Database.database().reference(fromURL: "https://gameofchats-99ef0.firebaseio.com/")
+        ref.updateChildValues(["someValue": 123123])*/
         
         // 最初のページの左上のLogoutの表示
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(handleLogout))
