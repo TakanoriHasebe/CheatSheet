@@ -12,10 +12,6 @@
 */
 //
 
-
-
-
-
 import UIKit
 
 class ViewController: UITableViewController {
@@ -27,14 +23,16 @@ class ViewController: UITableViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(handleLogout))
         
     }
+    
+    
 
     // Login, Logoutに関する関数
     func handleLogout() {
         
-        // 他のプログラムの関数の呼び出し〇
+        /* 他のプログラムの関数の呼び出し start 〇 */
         let loginController = LoginController()
         present(loginController, animated: true, completion: nil)
-        
+        /* 他のプログラムの関数の呼び出し end 〇   */
         
     }
     
