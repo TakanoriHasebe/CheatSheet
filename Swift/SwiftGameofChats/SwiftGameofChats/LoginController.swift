@@ -15,15 +15,19 @@
  */
 
 /*
- 〇: 参考になったプログラムの書き方
+ 〇: 以下のコードは全てが参考になる
+ ①: UIButtonなどに対してActionを追加
+ ②: Firebaseにname, emailを保存するcodeを記述
  
  */
 
 import UIKit
+import Firebase
 
 class LoginController: UIViewController {
 
     /* UIViewやボタン、テキストフィールドを作成している */
+    
     let inputsContainerView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.white
@@ -42,8 +46,53 @@ class LoginController: UIViewController {
         button.setTitleColor(UIColor.white, for: .normal)
         button.layer.cornerRadius = 5
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        
+        /* UIButtonに対してどのようなActionを起こすかを追加 ① */
+        button.addTarget(self, action: #selector(handleRegister), for: .touchUpInside)
+        
         return button
     }()
+    
+    /* Firebase */
+    /* ログインに成功した場合、FirebaseのDatabaseに対して情報を保存 ② */
+    func handleRegister(){
+        
+        /* ここに、これより下のコードで用いる変数を記述 */
+        guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else{
+            print("Form is not valid")
+            return
+        }
+        
+        /* FirebaseのDatabase接続がエラーの場合 */
+        Auth.auth().createUser(withEmail: email, password: password, completion: {(user: User?, error) in
+            
+            if error != nil{
+                print(error)
+                return
+            }
+            
+            guard let uid = user?.uid else{
+                return
+            }
+            
+            /* ログインに成功した場合、FirebaseのDatabaseに対して情報を保存 ② */
+            let ref = Database.database().reference(fromURL: "https://gameofchats-99ef0.firebaseio.com/")
+            let userReference = ref.child("users").child(uid)
+            let values = ["name": name, "email": email]
+            userReference.updateChildValues(values, withCompletionBlock: { (err, ref) in
+                
+                if err != nil{
+                    print(err)
+                    return
+                }
+                
+                print("FirebaseのDatabaseへユーザー情報の登録に成功しました")
+                
+            })
+            
+            
+        })
+    }
     
     let nameTextField: UITextField = {
         let tf = UITextField()
@@ -119,6 +168,7 @@ class LoginController: UIViewController {
     }
     
     /* 下記ではconstraintsを記述している */
+    
     func setupImageProfileView(){
         // need x, y, width, hegiht, constraints
         profileImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
