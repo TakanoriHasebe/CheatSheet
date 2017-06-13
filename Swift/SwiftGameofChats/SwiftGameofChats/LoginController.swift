@@ -23,6 +23,7 @@ import UIKit
 
 class LoginController: UIViewController {
 
+    /* UIViewやボタン、テキストフィールドを作成している */
     let inputsContainerView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.white
@@ -117,6 +118,7 @@ class LoginController: UIViewController {
         setupImageProfileView()
     }
     
+    /* 下記ではconstraintsを記述している */
     func setupImageProfileView(){
         // need x, y, width, hegiht, constraints
         profileImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
