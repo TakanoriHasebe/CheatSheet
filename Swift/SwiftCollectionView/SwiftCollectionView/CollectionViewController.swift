@@ -28,7 +28,7 @@ class CollectionViewController: UICollectionViewController {
         return imageViewArray.count
     }
 
-    /*
+    
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) 
         
@@ -50,6 +50,6 @@ class CollectionViewController: UICollectionViewController {
             
         }), completion: nil)
     }
-    */
+    
 }
 
