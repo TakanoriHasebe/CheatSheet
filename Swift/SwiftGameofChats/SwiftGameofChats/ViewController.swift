@@ -27,12 +27,22 @@ class ViewController: UITableViewController {
         // 最初のページの左上のLogoutの表示
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(handleLogout))
         
+        // ユーザーがログインしていない場合
+        if Auth.auth().currentUser?.uid == nil{
+            perform(#selector(handleLogout), with: nil, afterDelay: 0)
+        }
     }
     
     
 
     // Login, Logoutに関する関数
     func handleLogout() {
+        
+        do{
+            try Auth.auth().signOut()
+        }catch let logoutError{
+            print(logoutError)
+        }
         
         /* 他のプログラムの関数の呼び出し start 〇 */
         let loginController = LoginController()
