@@ -48,7 +48,7 @@ class LoginController: UIViewController {
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
         
         /* UIButtonに対してどのようなActionを起こすかを追加 ① */
-        button.addTarget(self, action: #selector(handleRegister), for: .touchUpInside)
+        button.addTarget(self, action: #selector(handleLoginRegister), for: .touchUpInside)
         
         return button
     }()
@@ -82,7 +82,7 @@ class LoginController: UIViewController {
     }
     
     /* Firebase */
-    /* ログインに成功した場合、FirebaseのDatabaseに対して、保存する情報を指定して情報を保存 ② */
+    /* Registerに成功した場合、FirebaseのDatabaseに対して、保存する情報を指定して情報を保存 ② */
     /* コピペ */
     func handleRegister(){
         

@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		79BCECE06313C03A473F769D /* Pods_SwiftGameofChats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30682E0A96147526194DCC8 /* Pods_SwiftGameofChats.framework */; };
 		F36F5BD01EE9638B00B52640 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F36F5BCF1EE9638B00B52640 /* GoogleService-Info.plist */; };
+		F3AC165A1EF2892200D31389 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC16591EF2892200D31389 /* NewMessageController.swift */; };
 		F3E1FE0E1EE8107A00FF6A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1FE0D1EE8107A00FF6A6E /* AppDelegate.swift */; };
-		F3E1FE101EE8107A00FF6A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1FE0F1EE8107A00FF6A6E /* ViewController.swift */; };
+		F3E1FE101EE8107A00FF6A6E /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1FE0F1EE8107A00FF6A6E /* MessagesController.swift */; };
 		F3E1FE131EE8107A00FF6A6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E1FE111EE8107A00FF6A6E /* Main.storyboard */; };
 		F3E1FE151EE8107A00FF6A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E1FE141EE8107A00FF6A6E /* Assets.xcassets */; };
 		F3E1FE181EE8107A00FF6A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E1FE161EE8107A00FF6A6E /* LaunchScreen.storyboard */; };
 		F3E1FE211EE813B100FF6A6E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1FE201EE813B100FF6A6E /* LoginController.swift */; };
+		F3E3CC2F1EF2967F00B4F508 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E3CC2E1EF2967F00B4F508 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,14 +24,16 @@
 		BEAE9D29456CC4B49BB82789 /* Pods-SwiftGameofChats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGameofChats.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGameofChats/Pods-SwiftGameofChats.release.xcconfig"; sourceTree = "<group>"; };
 		C30682E0A96147526194DCC8 /* Pods_SwiftGameofChats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGameofChats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36F5BCF1EE9638B00B52640 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F3AC16591EF2892200D31389 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
 		F3E1FE0A1EE8107A00FF6A6E /* SwiftGameofChats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGameofChats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E1FE0D1EE8107A00FF6A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3E1FE0F1EE8107A00FF6A6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3E1FE0F1EE8107A00FF6A6E /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		F3E1FE121EE8107A00FF6A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3E1FE141EE8107A00FF6A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3E1FE171EE8107A00FF6A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3E1FE191EE8107A00FF6A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3E1FE201EE813B100FF6A6E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F3E3CC2E1EF2967F00B4F508 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 		F3E1FE0C1EE8107A00FF6A6E /* SwiftGameofChats */ = {
 			isa = PBXGroup;
 			children = (
+				F3E3CC2D1EF2966100B4F508 /* Model */,
 				F3E1FE1F1EE8136F00FF6A6E /* Controller */,
 				F3E1FE0D1EE8107A00FF6A6E /* AppDelegate.swift */,
 				F3E1FE111EE8107A00FF6A6E /* Main.storyboard */,
@@ -97,9 +102,18 @@
 			isa = PBXGroup;
 			children = (
 				F3E1FE201EE813B100FF6A6E /* LoginController.swift */,
-				F3E1FE0F1EE8107A00FF6A6E /* ViewController.swift */,
+				F3E1FE0F1EE8107A00FF6A6E /* MessagesController.swift */,
+				F3AC16591EF2892200D31389 /* NewMessageController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		F3E3CC2D1EF2966100B4F508 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3CC2E1EF2967F00B4F508 /* Users.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,8 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E1FE101EE8107A00FF6A6E /* ViewController.swift in Sources */,
+				F3AC165A1EF2892200D31389 /* NewMessageController.swift in Sources */,
+				F3E1FE101EE8107A00FF6A6E /* MessagesController.swift in Sources */,
 				F3E1FE211EE813B100FF6A6E /* LoginController.swift in Sources */,
+				F3E3CC2F1EF2967F00B4F508 /* Users.swift in Sources */,
 				F3E1FE0E1EE8107A00FF6A6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
