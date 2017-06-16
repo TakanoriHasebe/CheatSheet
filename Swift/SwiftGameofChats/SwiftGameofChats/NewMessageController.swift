@@ -9,6 +9,11 @@
 import UIKit
 import Firebase
 
+/*
+ 〇: 参考になったプログラムの書き方
+ ①: Firebaseから情報を取得する
+ */
+
 class NewMessageController: UITableViewController {
 
     let cellId = "cellId"
@@ -19,16 +24,18 @@ class NewMessageController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /* 左上にtitleを配置 */
+        /* 左上にtitleを配置 〇 */
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(handleCancel))
         
+        /* tableViewに表示 〇 */
         tableView.register(UserCell.self, forCellReuseIdentifier: cellId)
         
+        /* users情報の取得 〇 ① */
         fetchUser()
     }
     
     /* コピペ */
-    /* Userの情報を取得 */
+    /* Userの情報を取得 ① */
     func fetchUser(){
         /* コピペ */
         /* Firebaseから全てのユーザー情報を取得 */
@@ -60,19 +67,19 @@ class NewMessageController: UITableViewController {
         
     }
     
-    
+    /* 左上のCancelが押された時に実行 〇 ① */
     func handleCancel(){
         
-        /* ひとつ前のViewに戻る */
+        /* ひとつ前のViewに戻る 〇 */
         dismiss(animated: true, completion: nil)
     }
     
-    /* 表示するテキストの個数 */
+    /* 表示するテキストの個数 〇 ① */
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return users.count
     }
     
-    /* tableViewにテキストを表示 */
+    /* tableViewにテキストを表示 〇 ① */
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // let use a hack for now, we actually need to dequeue our cells for memory efficiency
@@ -90,6 +97,7 @@ class NewMessageController: UITableViewController {
     
 }
 
+/* User情報を表示 */
 class UserCell: UITableViewCell{
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {

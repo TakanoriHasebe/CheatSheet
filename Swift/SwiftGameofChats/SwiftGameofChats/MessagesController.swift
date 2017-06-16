@@ -29,13 +29,14 @@ class MessagesController: UITableViewController {
         
         /* 画像を右上に配置 */
         let image = UIImage(named: "new-message-icon")
+        /* handleNewMessage関数を呼び出し */
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: self, action: #selector(handleNewMessage))
         
         checkIfUserIsLoggedIn()
         
     }
     
-    /*  */
+    /* Messanger.swiftを呼び出し */
     func handleNewMessage(){
         
         /* 右上に配置された画像が押されたら、NewMessageController.swiftを呼び出す */
@@ -45,6 +46,7 @@ class MessagesController: UITableViewController {
         
     }
     
+    /* userがログインしているかどうか ① */
     func checkIfUserIsLoggedIn(){
         
         // ユーザーがログインしていない場合

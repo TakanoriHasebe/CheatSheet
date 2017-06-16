@@ -24,10 +24,10 @@
 import UIKit
 import Firebase
 
-class LoginController: UIViewController {
+class LoginController: UIViewController, UIGestureRecognizerDelegate {
 
     /* UIViewやボタン、テキストフィールドを作成している */
-    
+
     let inputsContainerView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.white
@@ -38,7 +38,7 @@ class LoginController: UIViewController {
     }()
     
     
-    let loginRegisterButton: UIButton = {
+    lazy var loginRegisterButton: UIButton = {
         let button = UIButton(type: .system)
         button.backgroundColor = UIColor(r: 80, g: 101, b: 161)
         button.setTitle("Register", for: .normal)
@@ -81,51 +81,6 @@ class LoginController: UIViewController {
         
     }
     
-    /* Firebase */
-    /* Registerに成功した場合、FirebaseのDatabaseに対して、保存する情報を指定して情報を保存 ② */
-    /* コピペ */
-    func handleRegister(){
-        
-        /* ここに、これより下のコードで用いる変数を記述 */
-        guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else{
-            print("Form is not valid")
-            return
-        }
-        
-        /* FirebaseのDatabase接続がエラーの場合 */
-        Auth.auth().createUser(withEmail: email, password: password, completion: {(user: User?, error) in
-            
-            if error != nil{
-                print(error)
-                return
-            }
-            
-            guard let uid = user?.uid else{
-                return
-            }
-            
-            /* ログインに成功した場合、FirebaseのDatabaseに対して情報を保存 ② */
-            /* コピペ */
-            let ref = Database.database().reference(fromURL: "https://gameofchats-99ef0.firebaseio.com/")
-            let userReference = ref.child("users").child(uid)
-            let values = ["name": name, "email": email]
-            userReference.updateChildValues(values, withCompletionBlock: { (err, ref) in
-                
-                if err != nil{
-                    print(err)
-                    return
-                }
-                
-                self.dismiss(animated: true, completion: nil)
-                
-                print("FirebaseのDatabaseへユーザー情報の登録に成功しました")
-                
-            })
-            
-            
-        })
-    }
-    
     let nameTextField: UITextField = {
         let tf = UITextField()
         tf.placeholder = "Name"
@@ -162,11 +117,19 @@ class LoginController: UIViewController {
         return tf
     }()
     
-    let profileImageView: UIImageView = {
+    /* lazy varでなく、letにするとhandleSelectProfileImageViewが呼ばれない */
+    lazy var profileImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "gameofthrones_splash")
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
+        
+        /* imageViewにTapGestureRecognizerを追加 */
+        
+        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleSelectProfileImageView)))
+        imageView.isUserInteractionEnabled = true
+ 
+        
         return imageView
     }()
     
