@@ -1,0 +1,18 @@
+PODS:
+  - Canvas (0.1.2)
+  - pop (1.0.9)
+  - WYMaterialButton (2.0.2):
+    - pop (~> 1.0)
+
+DEPENDENCIES:
+  - Canvas
+  - WYMaterialButton
+
+SPEC CHECKSUMS:
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  WYMaterialButton: e7834149d5a8e073ea4424162c2e7c922b7a25c0
+
+PODFILE CHECKSUM: 5fbe511d981225a0ed7f2e58c9ad0628c95e5386
+
+COCOAPODS: 1.2.1

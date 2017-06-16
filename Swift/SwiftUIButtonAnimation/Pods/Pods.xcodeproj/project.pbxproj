@@ -1,0 +1,1210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D5D02498586DF850AC01F67F9C7352 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 849CFB279202C90CC9593FFD814BC263 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0230CEEC26D470340E76338D88C33F20 /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5A5548AAA299AE4F09E8328A4C9B06 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		040D874AEAEC4E0A91B1C75952D01EC5 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 33ECA01EDDCBA541E2D6565706D43B8E /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		085AE544E5FEC8D0B87B3D6EAAAAA907 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9B909F0CD4AF9F44CAB3EA8180FFFD51 /* POPBasicAnimation.mm */; };
+		0DD7213BAF6205B2E72800AF0357603D /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BD15B06A690BABD1CECF64899878E577 /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E1A6CE70E2BD57D67ACB8BA7701D25A /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DFE82A1DE1A7EFAC5B10BE0A0B7FA7 /* SpringAnimation.swift */; };
+		0E3EBEBC40D2A1E5198FD9C98C4D3A61 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD18681B8ECFBE7E0DCA6BE8F7F802F /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1073E22A9AA7CCA485D6BA8C36CCEE1E /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FE7E25FFDDA310ECCF6436CC12E401 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1449DCED956DE47F8E99B47240B2994F /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37A96F18C598E5476BA335D117A2416B /* POPVector.mm */; };
+		146630EFBC4D2231A50CB9F11A337EC6 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABD258CB8D2204F483E750DEDEDD234 /* UINavigationBar+TCCustomFont.m */; };
+		1ED8CB9123077805739DDD87286C23BF /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD9EB115B66A046538D1C97F30F7BDB /* UITextField+PlaceholderColor.m */; };
+		1F2B994DC556596FC7C994042DE10488 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3B16AA32EE4AD1E53BDB6867C464D /* Spring.swift */; };
+		209D1A44943B3C7F57DFEA97FEAB2E96 /* WYMaterialButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 913716A6B590419635E5466A0799221B /* WYMaterialButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20EA1F1D7259589D2602A6D77377E269 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5543FDEFD8471ED482BA8966797A9A1 /* POPGeometry.mm */; };
+		25D709F491D1323914BDFBCD70B1B3CB /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = CD77EBBB94E00229D4E8E90AC8838F1B /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		292E2C73CCB8DCA0E24F1CEAABB4CA80 /* Pods-SwiftUIButtonAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 559BDBD72D37D1AEE0EA52BF6115F5BC /* Pods-SwiftUIButtonAnimation-dummy.m */; };
+		30F9718F55A972E6FD360896775F22C6 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 703E0602C401C737D17D35485288CE9D /* POPAnimationExtras.mm */; };
+		316DFB513835B5758FD325686FACD654 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F78191E90A31D6CB7ED48C110D34CD3 /* POPLayerExtras.mm */; };
+		320207376FAF499B19286847E49CBFCC /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20324EDFB1460B861D47CD4B5AA8CEDB /* pop-dummy.m */; };
+		3A5D78EF2A1342D0396C1C4AF0451491 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B5D28C8F78121E48820791800D688 /* CSAnimationView.m */; };
+		3A5FCCCB61472AD8DFFA13B906E5CB17 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE4C9286C50228992577CDCF40736D3 /* UITextView+TCCustomFont.m */; };
+		3A91A6A55709764A34282C6D6969DDE5 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = F528C4AB4ED7420E8CD5A3C5E0FD5182 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CC3EDFC7D7A67E9EB622DEED5B65B40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B95958D68AD6D2C8B77BF522B55A828 /* UIKit.framework */; };
+		3E57D187ED48C557F970A60189C8B953 /* Pods-SwiftUIButtonAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD16370036519BD8A0EE1F7ADFDAFDD /* Pods-SwiftUIButtonAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467091E5916EAD726FE65301BC7CD3FF /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C3C166A107E9C66C9F0B06745CB651D /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		492EFC51EC561460A8BC19043EE8D03B /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D92ECE1E7BBB138E824081F15996B6E6 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A42AD8EAF1479A25806DD08C351A399 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C100517D8D3273D3A13DD856862F54 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C778137BBA41922618A1EA457F691D1 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC701E2ACF68F388297675E32F4F6D67 /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EF787F1D567516F433EFB2462F43801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD09A34EFD5DFEFED0F14CB4F1A5DAC4 /* Foundation.framework */; };
+		4FC3F3B5541900A6C9A3B3B715A8238C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD09A34EFD5DFEFED0F14CB4F1A5DAC4 /* Foundation.framework */; };
+		54B06073BC396D015044362E5C58166F /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE19D5D2B83264CFBD86B2B23ABB965 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5617A6D54E3214B67AB4E8CE3D2B1179 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C29CB8F33CC65E87BAFD704BBA85958 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58A70E32E4697845C2FF66C907F7AA31 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B67265831C589B2FA9FA8FEC0A77454 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CC3111F76F6E705205BB03C7ED4E248 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F8A96B4385030896B930CEA369CCB4 /* UIButton+TCCustomFont.m */; };
+		5EE581744CF59A36D57B566651381A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD09A34EFD5DFEFED0F14CB4F1A5DAC4 /* Foundation.framework */; };
+		63BFC54BBAE493BF861E660A02EED572 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95F639DA813F5C403BE66EF4F05E18A8 /* POPCGUtils.mm */; };
+		64B50785CC104C02743C0B03A8D01727 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E14DA6C296C8FEEB24322094C6B31B /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6549C61A563E8A6EA19294978B65CDE4 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042823F1C36F520F2DED0DC84317A07D /* CSNavigationController.m */; };
+		66C642F8C10BFE7C75BD5177878131DF /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 91108AB6448B73F44CBCD1AA7AF16BC6 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		722043CDFAD463446C6662F706DFB995 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 312D77803B797A494B5B2334D3947990 /* UITextField+TCCustomFont.m */; };
+		7695F20DC9790E737B9A47E1F9877A8B /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E9021AB6DA38A8717990BB61C1BB75A /* POPCustomAnimation.mm */; };
+		7A5B681BDFEDF0C4421EDCAFFDB9D41F /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C296B7720A00998573638DC3BFFC22B5 /* POPSpringAnimation.mm */; };
+		7D0D78FB1B0D9DCB39EC7F704F0D40AF /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B60DF33E3711C529834E20A820D53E9 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FCB5DEA502B30931C2CA971398B2CBD /* pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BB28A3826997E3F2819A2FD35D122E /* pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80F6C4E36AB32F3904C842F4C1F170AC /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED1BAD04A01410828098AA26CCF4034 /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88548E350FD87D7AADA926F27516C6CB /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB520104B8A93912C982C409ACB5B0A /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E8A791D4F5F551A1CABF8987C8EC84 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 354CCC265A5C50DE749B79BA6070A31D /* POPAnimationRuntime.mm */; };
+		8A8D5FA7695F2115B4ED49EE755139FA /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D27AD0E99F846297D5E6B55EC1004E3 /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E2313857B133F95F16F1B23BF21014F /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4318CDA7AD114A2709F2C52D5A38CAE /* POPAnimator.mm */; };
+		8F46A1C8CE175954026C0CD51D7CD096 /* WYMaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426684D87CAE718326B17FBE1B74575 /* WYMaterialButton.swift */; };
+		91C86EE348F90469579E5A373FC56622 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBD1BF9CF1535029F51D31F4FE59C14 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93EF00C583EE6275BC9D23BE0F8E3FA2 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = B2AF3B5CD7D89E5AA62AFB5DD32F2792 /* POPAnimation.mm */; };
+		99F6B85CF74E4141B1ADD6F4EDB72261 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 9209C80E2AA890F8D238BA249205FB12 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C5C1641E652073320C3AF57420D76D2 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CA65DFB527F0C5367D11DBA0ADD320 /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A11F4A07D43A50BB4D4AE4A58001DEF1 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12275F3C9EA534AAA9AEE0CF6019AF64 /* pop.framework */; };
+		A2C08DAAE4D07A9F87C65453675EB705 /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FC04A4DF12169B519708C2FB739E6E /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5B340601980461305B72C348E290873 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F246312125DA160C35EE7547C2191E60 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6BF70CEDA936A4B8F0E9B61951A112D /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4008EDB850CC485640989BD1059383 /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A780C1AE2CA61EF0F37447837FD5EAFF /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F46EB6F20D18F7E99DC51B0965FEE9D /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA8FDA8F369C67778F84155E0A102E7F /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF1B67DAB9BA3BBE8D36A40EC2851478 /* POPDecayAnimation.mm */; };
+		AB500889C45131CC564BDE78C0E1C1E4 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44DF9CF0A239BC2C7EBF24DACA96E53 /* DesignableButton.swift */; };
+		AB7FD36E4BDE2AE8DE37FB52E0CD044E /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = CA755C58D6479F32695649E618A351F8 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB96F491D9FA91FF2A2E4BF65C01F8FF /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB8265D4E904A6EDB42BE3E9870EEA53 /* POPMath.mm */; };
+		ACC15F7CB46C0685FD21EE5B0F6F6AA8 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28BAB96F11B04DE687523D553BE7C2 /* SpringButton.swift */; };
+		ADC9AE5F8D8A07EAFB2963B2B6CE4FBC /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DB952E279D93BC16F0543B6B3866F199 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2D3C435370C60A1018320FE3ADEEBB6 /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DC8CF0EDA666070182872643C23B3D /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39819FF29E15C9E4636B09B4627D46C /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF90234FEF3D9B5F37C66FD14465C26 /* CSBlurView.m */; };
+		B6358E1AED1AD2949B366E7EBE95E139 /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EF8FA99FA118032E63AF5F12A0C978 /* Canvas-dummy.m */; };
+		B97E4D9EF786C37745533D53E461EEFE /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 335B9C81F198FD911EE915271290C17B /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA28C1C8D1EE37EFAACF446FE1BF74BA /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF153C59AE6B2D558B0D43769DC37853 /* POPPropertyAnimation.mm */; };
+		BB6208CE29169F6FDC16095449E054F7 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C2E6485F083F38FF99C594FA4E58E5 /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC7744379126A63CA49329C96143C647 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 6177E057D5B96500CCF8231525FDB635 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA3281085FA13AF921E88B84ED5D3F8 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA949396CFF8FE86A9E6E092EEE64D /* UILabel+TCCustomFont.m */; };
+		BFC35FB6912FF53FF06F1F293ABA131F /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D55F5B7523894E96126E8B00C36F3A /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0116967620D4802ABDBD71229C6246D /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D12D53F77148F79876CD085C1AF3B12 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9602F22B4B517D3DADE09874A1E40D6 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64AEFA1A766FF31E889C40419BB246EE /* POPAnimationTracer.mm */; };
+		CA24CD7BE824AA07E9BE0814AAB9A7D7 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8B8A1B43A77BD4F96812C3D6D73D72 /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAFE48EC2233F8A0C1E08DBCC2FD7C86 /* WYMaterialButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 565006034ACED911CF8540E43129D371 /* WYMaterialButton-dummy.m */; };
+		CF3FEFAD0F17B31334D7890ECD2B8DFE /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D6A9A74C0345D08AF5B0C39F0405B8 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D34B668867D7E42B4E217130FB41C118 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E255F250E1B9114D1A25A5F818FA64C0 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5B84B208FBA94896DCB2F353F10E105 /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FE5CB8F58E4481DF0A86E75ACC5ECE /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A033E57E90F3646D39E7BC566F2067 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F243614E14713AC913B529D3B1BB8C7 /* CSAnimation.m */; };
+		DB86B3BCF48F6668C79AE89E8A9943D9 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34C8A982141CE6E46F41B728B9ABBC03 /* TransformationMatrix.cpp */; };
+		DC0FF9DC642FCCF221EF5CAF2A386CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD09A34EFD5DFEFED0F14CB4F1A5DAC4 /* Foundation.framework */; };
+		DCCCA02E94D84C1C07F9F17D90C3EFD8 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CCE57799571CB07E28CEAC6422B7A8D /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E088F64BC2C60DCB23A5C84889A66442 /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D273E562282725D6AF230F687C2B516F /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECFD0A35774A3E3FFD7424DED9446870 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 062E7902CB2B17C36E18D8F7A3FED258 /* POPAnimationEvent.mm */; };
+		F7251150A6F3BC6662A1548688226AB3 /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2482759907B3A4244C3F661C8D7E4E /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75147EF77A23BE300070A683B03DF5F /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A6970914207E44298798533389E47F /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F80DED27FB4D88A0F2130594C43FD5E8 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 521DB67BBE804114B76FA80B6614533C /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98732BBCDDB69736B8D08D8317011DE /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD9B6262C0279E1489FB791457FA1B /* POPAnimatableProperty.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C040D05BD240C60EF30327A81F9B517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E8EAEDED708FAF1B8DDCBCBF28C604;
+			remoteInfo = pop;
+		};
+		7C3693ECDB5EC67B4EB86CA097B69A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3EFC27D61B8B32465CCC5F03703306A;
+			remoteInfo = WYMaterialButton;
+		};
+		DDF196EEB168399454B56A45B2B290E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6497E6E7D485D7D0D7E0CD8E84BFCD4;
+			remoteInfo = Canvas;
+		};
+		FAA339B5637B9610CB28787DC2747018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E8EAEDED708FAF1B8DDCBCBF28C604;
+			remoteInfo = pop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D55F5B7523894E96126E8B00C36F3A /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		0270CDDA7B34A633EDDB9A21D1E3AB43 /* Pods_SwiftUIButtonAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftUIButtonAnimation.framework; path = "Pods-SwiftUIButtonAnimation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042823F1C36F520F2DED0DC84317A07D /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		062E7902CB2B17C36E18D8F7A3FED258 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		0B67265831C589B2FA9FA8FEC0A77454 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		0C29CB8F33CC65E87BAFD704BBA85958 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		0DD9EB115B66A046538D1C97F30F7BDB /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		10C5C908CA301AFEB7156B666BF9C32E /* WYMaterialButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WYMaterialButton.modulemap; sourceTree = "<group>"; };
+		12275F3C9EA534AAA9AEE0CF6019AF64 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A059CB051D192CBE055A5636B6A11B8 /* Pods-SwiftUIButtonAnimation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUIButtonAnimation-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D27AD0E99F846297D5E6B55EC1004E3 /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		1F94E8FA57E3A2352061272FEFCAF253 /* Pods-SwiftUIButtonAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUIButtonAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		20324EDFB1460B861D47CD4B5AA8CEDB /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
+		22626EA1244AC9B819E752EEA0DAC6F2 /* Pods-SwiftUIButtonAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUIButtonAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		25BB28A3826997E3F2819A2FD35D122E /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
+		27A6970914207E44298798533389E47F /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		2B60DF33E3711C529834E20A820D53E9 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		2BAD9B6262C0279E1489FB791457FA1B /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		2DD1B01A503E73D8AA9A6E2D8C731CFD /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
+		2DE879D93FA46A02583CF4CCF39D6F04 /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		312D77803B797A494B5B2334D3947990 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		335B9C81F198FD911EE915271290C17B /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		33D62DB6DF361759DEFA2A19C7897BE6 /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Canvas.modulemap; sourceTree = "<group>"; };
+		33ECA01EDDCBA541E2D6565706D43B8E /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		34C8A982141CE6E46F41B728B9ABBC03 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		354CCC265A5C50DE749B79BA6070A31D /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		37A96F18C598E5476BA335D117A2416B /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		3F78191E90A31D6CB7ED48C110D34CD3 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		3FD18681B8ECFBE7E0DCA6BE8F7F802F /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		40336B829990D501373D62AC7D7B0839 /* WYMaterialButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYMaterialButton.xcconfig; sourceTree = "<group>"; };
+		44EF8FA99FA118032E63AF5F12A0C978 /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
+		4ABD258CB8D2204F483E750DEDEDD234 /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		4C45EC1731C48BB8E8EAB1A457410EAD /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		4E9021AB6DA38A8717990BB61C1BB75A /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		4FE4C9286C50228992577CDCF40736D3 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		5032DBA9051D144E282D36AC143B4C6B /* Pods-SwiftUIButtonAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftUIButtonAnimation.modulemap"; sourceTree = "<group>"; };
+		50AA949396CFF8FE86A9E6E092EEE64D /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		521DB67BBE804114B76FA80B6614533C /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		53C100517D8D3273D3A13DD856862F54 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		54D0A46E3D58DE4484EF8CF15D4385A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550B5D28C8F78121E48820791800D688 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		559BDBD72D37D1AEE0EA52BF6115F5BC /* Pods-SwiftUIButtonAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUIButtonAnimation-dummy.m"; sourceTree = "<group>"; };
+		565006034ACED911CF8540E43129D371 /* WYMaterialButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYMaterialButton-dummy.m"; sourceTree = "<group>"; };
+		57F6033AF5F76C328ADBA5CD595B62B1 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = pop.framework; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB520104B8A93912C982C409ACB5B0A /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		5DD16370036519BD8A0EE1F7ADFDAFDD /* Pods-SwiftUIButtonAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUIButtonAnimation-umbrella.h"; sourceTree = "<group>"; };
+		5DE19D5D2B83264CFBD86B2B23ABB965 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		5F46EB6F20D18F7E99DC51B0965FEE9D /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		6177E057D5B96500CCF8231525FDB635 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		64AEFA1A766FF31E889C40419BB246EE /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		65D6A9A74C0345D08AF5B0C39F0405B8 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		69FE5CB8F58E4481DF0A86E75ACC5ECE /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		6B95958D68AD6D2C8B77BF522B55A828 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6C28BAB96F11B04DE687523D553BE7C2 /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Pod/Classes/SpringButton.swift; sourceTree = "<group>"; };
+		6D12D53F77148F79876CD085C1AF3B12 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		6ED1BAD04A01410828098AA26CCF4034 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		703E0602C401C737D17D35485288CE9D /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		70A3B16AA32EE4AD1E53BDB6867C464D /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Pod/Classes/Spring.swift; sourceTree = "<group>"; };
+		770A7E4D00BB019B6602C6AF7A3E0EB1 /* Pods-SwiftUIButtonAnimation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUIButtonAnimation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78CA65DFB527F0C5367D11DBA0ADD320 /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		7C3C166A107E9C66C9F0B06745CB651D /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		7CCE57799571CB07E28CEAC6422B7A8D /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		8426684D87CAE718326B17FBE1B74575 /* WYMaterialButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WYMaterialButton.swift; path = Pod/Classes/WYMaterialButton.swift; sourceTree = "<group>"; };
+		849CFB279202C90CC9593FFD814BC263 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		84EAC50DA5BE05A7689F05B91E943AC8 /* WYMaterialButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYMaterialButton.framework; path = WYMaterialButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		858073178DFCA32C04F8684049C5F9F0 /* pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = pop.modulemap; sourceTree = "<group>"; };
+		88DC8CF0EDA666070182872643C23B3D /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
+		89FC04A4DF12169B519708C2FB739E6E /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		8F243614E14713AC913B529D3B1BB8C7 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		91108AB6448B73F44CBCD1AA7AF16BC6 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		913716A6B590419635E5466A0799221B /* WYMaterialButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYMaterialButton-umbrella.h"; sourceTree = "<group>"; };
+		9209C80E2AA890F8D238BA249205FB12 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94A104BF18B9EAD2D839F972AF0A33F9 /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		94DFE82A1DE1A7EFAC5B10BE0A0B7FA7 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Pod/Classes/SpringAnimation.swift; sourceTree = "<group>"; };
+		95F639DA813F5C403BE66EF4F05E18A8 /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		9B2482759907B3A4244C3F661C8D7E4E /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		9B909F0CD4AF9F44CAB3EA8180FFFD51 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		9BBD1BF9CF1535029F51D31F4FE59C14 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		A0F8A96B4385030896B930CEA369CCB4 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		A4C2E6485F083F38FF99C594FA4E58E5 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		AC8B8A1B43A77BD4F96812C3D6D73D72 /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		AF1B67DAB9BA3BBE8D36A40EC2851478 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		B2AF3B5CD7D89E5AA62AFB5DD32F2792 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		B5543FDEFD8471ED482BA8966797A9A1 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		BAF90234FEF3D9B5F37C66FD14465C26 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		BC701E2ACF68F388297675E32F4F6D67 /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		BD15B06A690BABD1CECF64899878E577 /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		C296B7720A00998573638DC3BFFC22B5 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		C7D6E5FDD36A85F931DA9B83F1279E12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA755C58D6479F32695649E618A351F8 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		CCCB33467514CA7D94FC4CB49B0D62B0 /* Pods-SwiftUIButtonAnimation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftUIButtonAnimation-frameworks.sh"; sourceTree = "<group>"; };
+		CD77EBBB94E00229D4E8E90AC8838F1B /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		CEAC6573D0F67ACEEA0AD94F3CCDDA73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3A6300F7E04018113ABF758FB9DC83 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Canvas.framework; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D273E562282725D6AF230F687C2B516F /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		D38164CCA99365ECFBC2AEC8BC933E53 /* Pods-SwiftUIButtonAnimation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftUIButtonAnimation-resources.sh"; sourceTree = "<group>"; };
+		D4318CDA7AD114A2709F2C52D5A38CAE /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		D8E14DA6C296C8FEEB24322094C6B31B /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		D92ECE1E7BBB138E824081F15996B6E6 /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		DB395F7476FEA87927F3C3C7A009B25D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5A5548AAA299AE4F09E8328A4C9B06 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		DB8265D4E904A6EDB42BE3E9870EEA53 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		DB952E279D93BC16F0543B6B3866F199 /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		E1FE7E25FFDDA310ECCF6436CC12E401 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		E255F250E1B9114D1A25A5F818FA64C0 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		E44DF9CF0A239BC2C7EBF24DACA96E53 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Pod/Classes/DesignableButton.swift; sourceTree = "<group>"; };
+		EA20795E495078334CD828E15A0F108A /* WYMaterialButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYMaterialButton-prefix.pch"; sourceTree = "<group>"; };
+		F246312125DA160C35EE7547C2191E60 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		F528C4AB4ED7420E8CD5A3C5E0FD5182 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		FA4008EDB850CC485640989BD1059383 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		FD09A34EFD5DFEFED0F14CB4F1A5DAC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FF153C59AE6B2D558B0D43769DC37853 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF017AC5EB467EF4817971E53E16DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC3F3B5541900A6C9A3B3B715A8238C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB71CEED06D9BFFAF454A104755DC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE581744CF59A36D57B566651381A16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF50FEC5EBC98AA9828E7BA58D1598A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0FF9DC642FCCF221EF5CAF2A386CFC /* Foundation.framework in Frameworks */,
+				A11F4A07D43A50BB4D4AE4A58001DEF1 /* pop.framework in Frameworks */,
+				3CC3EDFC7D7A67E9EB622DEED5B65B40 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA23D4A06ACE11BF9A43711D4934BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF787F1D567516F433EFB2462F43801 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36F1840D6BB79C7C8551CBD5D6D7A980 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE7E25FFDDA310ECCF6436CC12E401 /* FloatConversion.h */,
+				6177E057D5B96500CCF8231525FDB635 /* POP.h */,
+				00D55F5B7523894E96126E8B00C36F3A /* POPAction.h */,
+				0B67265831C589B2FA9FA8FEC0A77454 /* POPAnimatableProperty.h */,
+				2BAD9B6262C0279E1489FB791457FA1B /* POPAnimatableProperty.mm */,
+				AC8B8A1B43A77BD4F96812C3D6D73D72 /* POPAnimation.h */,
+				B2AF3B5CD7D89E5AA62AFB5DD32F2792 /* POPAnimation.mm */,
+				521DB67BBE804114B76FA80B6614533C /* POPAnimationEvent.h */,
+				062E7902CB2B17C36E18D8F7A3FED258 /* POPAnimationEvent.mm */,
+				E255F250E1B9114D1A25A5F818FA64C0 /* POPAnimationEventInternal.h */,
+				3FD18681B8ECFBE7E0DCA6BE8F7F802F /* POPAnimationExtras.h */,
+				703E0602C401C737D17D35485288CE9D /* POPAnimationExtras.mm */,
+				DB5A5548AAA299AE4F09E8328A4C9B06 /* POPAnimationInternal.h */,
+				F246312125DA160C35EE7547C2191E60 /* POPAnimationPrivate.h */,
+				9209C80E2AA890F8D238BA249205FB12 /* POPAnimationRuntime.h */,
+				354CCC265A5C50DE749B79BA6070A31D /* POPAnimationRuntime.mm */,
+				5DB520104B8A93912C982C409ACB5B0A /* POPAnimationTracer.h */,
+				64AEFA1A766FF31E889C40419BB246EE /* POPAnimationTracer.mm */,
+				5F46EB6F20D18F7E99DC51B0965FEE9D /* POPAnimationTracerInternal.h */,
+				7C3C166A107E9C66C9F0B06745CB651D /* POPAnimator.h */,
+				D4318CDA7AD114A2709F2C52D5A38CAE /* POPAnimator.mm */,
+				CA755C58D6479F32695649E618A351F8 /* POPAnimatorPrivate.h */,
+				DB952E279D93BC16F0543B6B3866F199 /* POPBasicAnimation.h */,
+				9B909F0CD4AF9F44CAB3EA8180FFFD51 /* POPBasicAnimation.mm */,
+				CD77EBBB94E00229D4E8E90AC8838F1B /* POPBasicAnimationInternal.h */,
+				D92ECE1E7BBB138E824081F15996B6E6 /* POPCGUtils.h */,
+				95F639DA813F5C403BE66EF4F05E18A8 /* POPCGUtils.mm */,
+				6D12D53F77148F79876CD085C1AF3B12 /* POPCustomAnimation.h */,
+				4E9021AB6DA38A8717990BB61C1BB75A /* POPCustomAnimation.mm */,
+				0C29CB8F33CC65E87BAFD704BBA85958 /* POPDecayAnimation.h */,
+				AF1B67DAB9BA3BBE8D36A40EC2851478 /* POPDecayAnimation.mm */,
+				89FC04A4DF12169B519708C2FB739E6E /* POPDecayAnimationInternal.h */,
+				A4C2E6485F083F38FF99C594FA4E58E5 /* POPDefines.h */,
+				849CFB279202C90CC9593FFD814BC263 /* POPGeometry.h */,
+				B5543FDEFD8471ED482BA8966797A9A1 /* POPGeometry.mm */,
+				9BBD1BF9CF1535029F51D31F4FE59C14 /* POPLayerExtras.h */,
+				3F78191E90A31D6CB7ED48C110D34CD3 /* POPLayerExtras.mm */,
+				F528C4AB4ED7420E8CD5A3C5E0FD5182 /* POPMath.h */,
+				DB8265D4E904A6EDB42BE3E9870EEA53 /* POPMath.mm */,
+				2B60DF33E3711C529834E20A820D53E9 /* POPPropertyAnimation.h */,
+				FF153C59AE6B2D558B0D43769DC37853 /* POPPropertyAnimation.mm */,
+				53C100517D8D3273D3A13DD856862F54 /* POPPropertyAnimationInternal.h */,
+				6ED1BAD04A01410828098AA26CCF4034 /* POPSpringAnimation.h */,
+				C296B7720A00998573638DC3BFFC22B5 /* POPSpringAnimation.mm */,
+				FA4008EDB850CC485640989BD1059383 /* POPSpringAnimationInternal.h */,
+				91108AB6448B73F44CBCD1AA7AF16BC6 /* POPSpringSolver.h */,
+				1D27AD0E99F846297D5E6B55EC1004E3 /* POPVector.h */,
+				37A96F18C598E5476BA335D117A2416B /* POPVector.mm */,
+				34C8A982141CE6E46F41B728B9ABBC03 /* TransformationMatrix.cpp */,
+				D8E14DA6C296C8FEEB24322094C6B31B /* TransformationMatrix.h */,
+				27A6970914207E44298798533389E47F /* UnitBezier.h */,
+				D37490912ABC31A49A09ED5AB2734B08 /* Support Files */,
+			);
+			name = pop;
+			path = pop;
+			sourceTree = "<group>";
+		};
+		380121842D05F344666FEFB9BE1F139D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FD09A34EFD5DFEFED0F14CB4F1A5DAC4 /* Foundation.framework */,
+				6B95958D68AD6D2C8B77BF522B55A828 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		38366EF9E540545AD426D7A6AE43A049 /* WYMaterialButton */ = {
+			isa = PBXGroup;
+			children = (
+				E44DF9CF0A239BC2C7EBF24DACA96E53 /* DesignableButton.swift */,
+				70A3B16AA32EE4AD1E53BDB6867C464D /* Spring.swift */,
+				94DFE82A1DE1A7EFAC5B10BE0A0B7FA7 /* SpringAnimation.swift */,
+				6C28BAB96F11B04DE687523D553BE7C2 /* SpringButton.swift */,
+				8426684D87CAE718326B17FBE1B74575 /* WYMaterialButton.swift */,
+				EBF6905CB93DD51D183BD6F2B93BFF64 /* Support Files */,
+			);
+			name = WYMaterialButton;
+			path = WYMaterialButton;
+			sourceTree = "<group>";
+		};
+		4EAD57F0F30CE6978C10E630352B6884 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33D62DB6DF361759DEFA2A19C7897BE6 /* Canvas.modulemap */,
+				2DD1B01A503E73D8AA9A6E2D8C731CFD /* Canvas.xcconfig */,
+				44EF8FA99FA118032E63AF5F12A0C978 /* Canvas-dummy.m */,
+				2DE879D93FA46A02583CF4CCF39D6F04 /* Canvas-prefix.pch */,
+				88DC8CF0EDA666070182872643C23B3D /* Canvas-umbrella.h */,
+				54D0A46E3D58DE4484EF8CF15D4385A8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Canvas";
+			sourceTree = "<group>";
+		};
+		51FA652F8E9F94B4C640D94E530D1F4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86A4B363986322E27CC233DEC98D24FA /* Pods-SwiftUIButtonAnimation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66C0747F1723FF09814EDED1EA94CF98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94C604EB66D5E75A24A5D57700666FED /* Canvas */,
+				36F1840D6BB79C7C8551CBD5D6D7A980 /* pop */,
+				38366EF9E540545AD426D7A6AE43A049 /* WYMaterialButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B0F3FFB9AC766D12EC7E1AF92E9222D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12275F3C9EA534AAA9AEE0CF6019AF64 /* pop.framework */,
+				380121842D05F344666FEFB9BE1F139D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7B0F3FFB9AC766D12EC7E1AF92E9222D /* Frameworks */,
+				66C0747F1723FF09814EDED1EA94CF98 /* Pods */,
+				F1E816B576583E670D0475D6B2F8796A /* Products */,
+				51FA652F8E9F94B4C640D94E530D1F4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86A4B363986322E27CC233DEC98D24FA /* Pods-SwiftUIButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC6573D0F67ACEEA0AD94F3CCDDA73 /* Info.plist */,
+				5032DBA9051D144E282D36AC143B4C6B /* Pods-SwiftUIButtonAnimation.modulemap */,
+				770A7E4D00BB019B6602C6AF7A3E0EB1 /* Pods-SwiftUIButtonAnimation-acknowledgements.markdown */,
+				1A059CB051D192CBE055A5636B6A11B8 /* Pods-SwiftUIButtonAnimation-acknowledgements.plist */,
+				559BDBD72D37D1AEE0EA52BF6115F5BC /* Pods-SwiftUIButtonAnimation-dummy.m */,
+				CCCB33467514CA7D94FC4CB49B0D62B0 /* Pods-SwiftUIButtonAnimation-frameworks.sh */,
+				D38164CCA99365ECFBC2AEC8BC933E53 /* Pods-SwiftUIButtonAnimation-resources.sh */,
+				5DD16370036519BD8A0EE1F7ADFDAFDD /* Pods-SwiftUIButtonAnimation-umbrella.h */,
+				1F94E8FA57E3A2352061272FEFCAF253 /* Pods-SwiftUIButtonAnimation.debug.xcconfig */,
+				22626EA1244AC9B819E752EEA0DAC6F2 /* Pods-SwiftUIButtonAnimation.release.xcconfig */,
+			);
+			name = "Pods-SwiftUIButtonAnimation";
+			path = "Target Support Files/Pods-SwiftUIButtonAnimation";
+			sourceTree = "<group>";
+		};
+		94C604EB66D5E75A24A5D57700666FED /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				33ECA01EDDCBA541E2D6565706D43B8E /* Canvas.h */,
+				BD15B06A690BABD1CECF64899878E577 /* CSAnimation.h */,
+				8F243614E14713AC913B529D3B1BB8C7 /* CSAnimation.m */,
+				9B2482759907B3A4244C3F661C8D7E4E /* CSAnimationView.h */,
+				550B5D28C8F78121E48820791800D688 /* CSAnimationView.m */,
+				BC701E2ACF68F388297675E32F4F6D67 /* CSBlurView.h */,
+				BAF90234FEF3D9B5F37C66FD14465C26 /* CSBlurView.m */,
+				335B9C81F198FD911EE915271290C17B /* CSNavigationController.h */,
+				042823F1C36F520F2DED0DC84317A07D /* CSNavigationController.m */,
+				D273E562282725D6AF230F687C2B516F /* UIButton+TCCustomFont.h */,
+				A0F8A96B4385030896B930CEA369CCB4 /* UIButton+TCCustomFont.m */,
+				78CA65DFB527F0C5367D11DBA0ADD320 /* UILabel+TCCustomFont.h */,
+				50AA949396CFF8FE86A9E6E092EEE64D /* UILabel+TCCustomFont.m */,
+				7CCE57799571CB07E28CEAC6422B7A8D /* UINavigationBar+TCCustomFont.h */,
+				4ABD258CB8D2204F483E750DEDEDD234 /* UINavigationBar+TCCustomFont.m */,
+				65D6A9A74C0345D08AF5B0C39F0405B8 /* UITextField+PlaceholderColor.h */,
+				0DD9EB115B66A046538D1C97F30F7BDB /* UITextField+PlaceholderColor.m */,
+				5DE19D5D2B83264CFBD86B2B23ABB965 /* UITextField+TCCustomFont.h */,
+				312D77803B797A494B5B2334D3947990 /* UITextField+TCCustomFont.m */,
+				69FE5CB8F58E4481DF0A86E75ACC5ECE /* UITextView+TCCustomFont.h */,
+				4FE4C9286C50228992577CDCF40736D3 /* UITextView+TCCustomFont.m */,
+				4EAD57F0F30CE6978C10E630352B6884 /* Support Files */,
+			);
+			name = Canvas;
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		D37490912ABC31A49A09ED5AB2734B08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7D6E5FDD36A85F931DA9B83F1279E12 /* Info.plist */,
+				858073178DFCA32C04F8684049C5F9F0 /* pop.modulemap */,
+				4C45EC1731C48BB8E8EAB1A457410EAD /* pop.xcconfig */,
+				20324EDFB1460B861D47CD4B5AA8CEDB /* pop-dummy.m */,
+				94A104BF18B9EAD2D839F972AF0A33F9 /* pop-prefix.pch */,
+				25BB28A3826997E3F2819A2FD35D122E /* pop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pop";
+			sourceTree = "<group>";
+		};
+		EBF6905CB93DD51D183BD6F2B93BFF64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB395F7476FEA87927F3C3C7A009B25D /* Info.plist */,
+				10C5C908CA301AFEB7156B666BF9C32E /* WYMaterialButton.modulemap */,
+				40336B829990D501373D62AC7D7B0839 /* WYMaterialButton.xcconfig */,
+				565006034ACED911CF8540E43129D371 /* WYMaterialButton-dummy.m */,
+				EA20795E495078334CD828E15A0F108A /* WYMaterialButton-prefix.pch */,
+				913716A6B590419635E5466A0799221B /* WYMaterialButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WYMaterialButton";
+			sourceTree = "<group>";
+		};
+		F1E816B576583E670D0475D6B2F8796A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3A6300F7E04018113ABF758FB9DC83 /* Canvas.framework */,
+				0270CDDA7B34A633EDDB9A21D1E3AB43 /* Pods_SwiftUIButtonAnimation.framework */,
+				57F6033AF5F76C328ADBA5CD595B62B1 /* pop.framework */,
+				84EAC50DA5BE05A7689F05B91E943AC8 /* WYMaterialButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FA7A2AB0BA773047AE8C2B6ED92DB9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D1A44943B3C7F57DFEA97FEAB2E96 /* WYMaterialButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE176E0DD1D8C66B51B0F38D2C3E39D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E57D187ED48C557F970A60189C8B953 /* Pods-SwiftUIButtonAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E726B31B30A3EFBD8C5F5839CF291 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D3C435370C60A1018320FE3ADEEBB6 /* Canvas-umbrella.h in Headers */,
+				040D874AEAEC4E0A91B1C75952D01EC5 /* Canvas.h in Headers */,
+				0DD7213BAF6205B2E72800AF0357603D /* CSAnimation.h in Headers */,
+				F7251150A6F3BC6662A1548688226AB3 /* CSAnimationView.h in Headers */,
+				4C778137BBA41922618A1EA457F691D1 /* CSBlurView.h in Headers */,
+				B97E4D9EF786C37745533D53E461EEFE /* CSNavigationController.h in Headers */,
+				E088F64BC2C60DCB23A5C84889A66442 /* UIButton+TCCustomFont.h in Headers */,
+				9C5C1641E652073320C3AF57420D76D2 /* UILabel+TCCustomFont.h in Headers */,
+				DCCCA02E94D84C1C07F9F17D90C3EFD8 /* UINavigationBar+TCCustomFont.h in Headers */,
+				CF3FEFAD0F17B31334D7890ECD2B8DFE /* UITextField+PlaceholderColor.h in Headers */,
+				54B06073BC396D015044362E5C58166F /* UITextField+TCCustomFont.h in Headers */,
+				D5B84B208FBA94896DCB2F353F10E105 /* UITextView+TCCustomFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1174BC4B76F86A4FD39D9799D57B7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1073E22A9AA7CCA485D6BA8C36CCEE1E /* FloatConversion.h in Headers */,
+				7FCB5DEA502B30931C2CA971398B2CBD /* pop-umbrella.h in Headers */,
+				BC7744379126A63CA49329C96143C647 /* POP.h in Headers */,
+				BFC35FB6912FF53FF06F1F293ABA131F /* POPAction.h in Headers */,
+				58A70E32E4697845C2FF66C907F7AA31 /* POPAnimatableProperty.h in Headers */,
+				CA24CD7BE824AA07E9BE0814AAB9A7D7 /* POPAnimation.h in Headers */,
+				F80DED27FB4D88A0F2130594C43FD5E8 /* POPAnimationEvent.h in Headers */,
+				D34B668867D7E42B4E217130FB41C118 /* POPAnimationEventInternal.h in Headers */,
+				0E3EBEBC40D2A1E5198FD9C98C4D3A61 /* POPAnimationExtras.h in Headers */,
+				0230CEEC26D470340E76338D88C33F20 /* POPAnimationInternal.h in Headers */,
+				A5B340601980461305B72C348E290873 /* POPAnimationPrivate.h in Headers */,
+				99F6B85CF74E4141B1ADD6F4EDB72261 /* POPAnimationRuntime.h in Headers */,
+				88548E350FD87D7AADA926F27516C6CB /* POPAnimationTracer.h in Headers */,
+				A780C1AE2CA61EF0F37447837FD5EAFF /* POPAnimationTracerInternal.h in Headers */,
+				467091E5916EAD726FE65301BC7CD3FF /* POPAnimator.h in Headers */,
+				AB7FD36E4BDE2AE8DE37FB52E0CD044E /* POPAnimatorPrivate.h in Headers */,
+				ADC9AE5F8D8A07EAFB2963B2B6CE4FBC /* POPBasicAnimation.h in Headers */,
+				25D709F491D1323914BDFBCD70B1B3CB /* POPBasicAnimationInternal.h in Headers */,
+				492EFC51EC561460A8BC19043EE8D03B /* POPCGUtils.h in Headers */,
+				C0116967620D4802ABDBD71229C6246D /* POPCustomAnimation.h in Headers */,
+				5617A6D54E3214B67AB4E8CE3D2B1179 /* POPDecayAnimation.h in Headers */,
+				A2C08DAAE4D07A9F87C65453675EB705 /* POPDecayAnimationInternal.h in Headers */,
+				BB6208CE29169F6FDC16095449E054F7 /* POPDefines.h in Headers */,
+				01D5D02498586DF850AC01F67F9C7352 /* POPGeometry.h in Headers */,
+				91C86EE348F90469579E5A373FC56622 /* POPLayerExtras.h in Headers */,
+				3A91A6A55709764A34282C6D6969DDE5 /* POPMath.h in Headers */,
+				7D0D78FB1B0D9DCB39EC7F704F0D40AF /* POPPropertyAnimation.h in Headers */,
+				4A42AD8EAF1479A25806DD08C351A399 /* POPPropertyAnimationInternal.h in Headers */,
+				80F6C4E36AB32F3904C842F4C1F170AC /* POPSpringAnimation.h in Headers */,
+				A6BF70CEDA936A4B8F0E9B61951A112D /* POPSpringAnimationInternal.h in Headers */,
+				66C642F8C10BFE7C75BD5177878131DF /* POPSpringSolver.h in Headers */,
+				8A8D5FA7695F2115B4ED49EE755139FA /* POPVector.h in Headers */,
+				64B50785CC104C02743C0B03A8D01727 /* TransformationMatrix.h in Headers */,
+				F75147EF77A23BE300070A683B03DF5F /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03E8EAEDED708FAF1B8DDCBCBF28C604 /* pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C6FF20C7B1C66404ECA0763F77EB91 /* Build configuration list for PBXNativeTarget "pop" */;
+			buildPhases = (
+				023D94B49B5E19650C260BCD21039533 /* Sources */,
+				3EB71CEED06D9BFFAF454A104755DC37 /* Frameworks */,
+				CD1174BC4B76F86A4FD39D9799D57B7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pop;
+			productName = pop;
+			productReference = 57F6033AF5F76C328ADBA5CD595B62B1 /* pop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F3F1160C95F2B9EA045D7167E830826 /* Pods-SwiftUIButtonAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521CAF803490AC181ED07B413EB9D451 /* Build configuration list for PBXNativeTarget "Pods-SwiftUIButtonAnimation" */;
+			buildPhases = (
+				A312171C46E65C7A7286B5ED85896211 /* Sources */,
+				2AF017AC5EB467EF4817971E53E16DFE /* Frameworks */,
+				7BE176E0DD1D8C66B51B0F38D2C3E39D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F4D7DCCAE8A0E5B19F7BE1A043ED624 /* PBXTargetDependency */,
+				4261358B4B559D8CCD968D44EABE4CCF /* PBXTargetDependency */,
+				98ECC5C5D942CD1BFA859E219EAE7261 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftUIButtonAnimation";
+			productName = "Pods-SwiftUIButtonAnimation";
+			productReference = 0270CDDA7B34A633EDDB9A21D1E3AB43 /* Pods_SwiftUIButtonAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3EFC27D61B8B32465CCC5F03703306A /* WYMaterialButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0841DFE172416B78F00CC10F26B35DE1 /* Build configuration list for PBXNativeTarget "WYMaterialButton" */;
+			buildPhases = (
+				EB4ADEF58529C543FBD512CEB4AA9AB4 /* Sources */,
+				3FF50FEC5EBC98AA9828E7BA58D1598A /* Frameworks */,
+				2FA7A2AB0BA773047AE8C2B6ED92DB9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50916E1EC5033E536638D5EC5DA0DC3D /* PBXTargetDependency */,
+			);
+			name = WYMaterialButton;
+			productName = WYMaterialButton;
+			productReference = 84EAC50DA5BE05A7689F05B91E943AC8 /* WYMaterialButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596FCB5904178E733A3C78618222D49A /* Build configuration list for PBXNativeTarget "Canvas" */;
+			buildPhases = (
+				B24125255171B4E465A02155C472B6AF /* Sources */,
+				EEA23D4A06ACE11BF9A43711D4934BB5 /* Frameworks */,
+				840E726B31B30A3EFBD8C5F5839CF291 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canvas;
+			productName = Canvas;
+			productReference = CF3A6300F7E04018113ABF758FB9DC83 /* Canvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F1E816B576583E670D0475D6B2F8796A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */,
+				9F3F1160C95F2B9EA045D7167E830826 /* Pods-SwiftUIButtonAnimation */,
+				03E8EAEDED708FAF1B8DDCBCBF28C604 /* pop */,
+				C3EFC27D61B8B32465CCC5F03703306A /* WYMaterialButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		023D94B49B5E19650C260BCD21039533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320207376FAF499B19286847E49CBFCC /* pop-dummy.m in Sources */,
+				F98732BBCDDB69736B8D08D8317011DE /* POPAnimatableProperty.mm in Sources */,
+				93EF00C583EE6275BC9D23BE0F8E3FA2 /* POPAnimation.mm in Sources */,
+				ECFD0A35774A3E3FFD7424DED9446870 /* POPAnimationEvent.mm in Sources */,
+				30F9718F55A972E6FD360896775F22C6 /* POPAnimationExtras.mm in Sources */,
+				89E8A791D4F5F551A1CABF8987C8EC84 /* POPAnimationRuntime.mm in Sources */,
+				C9602F22B4B517D3DADE09874A1E40D6 /* POPAnimationTracer.mm in Sources */,
+				8E2313857B133F95F16F1B23BF21014F /* POPAnimator.mm in Sources */,
+				085AE544E5FEC8D0B87B3D6EAAAAA907 /* POPBasicAnimation.mm in Sources */,
+				63BFC54BBAE493BF861E660A02EED572 /* POPCGUtils.mm in Sources */,
+				7695F20DC9790E737B9A47E1F9877A8B /* POPCustomAnimation.mm in Sources */,
+				AA8FDA8F369C67778F84155E0A102E7F /* POPDecayAnimation.mm in Sources */,
+				20EA1F1D7259589D2602A6D77377E269 /* POPGeometry.mm in Sources */,
+				316DFB513835B5758FD325686FACD654 /* POPLayerExtras.mm in Sources */,
+				AB96F491D9FA91FF2A2E4BF65C01F8FF /* POPMath.mm in Sources */,
+				BA28C1C8D1EE37EFAACF446FE1BF74BA /* POPPropertyAnimation.mm in Sources */,
+				7A5B681BDFEDF0C4421EDCAFFDB9D41F /* POPSpringAnimation.mm in Sources */,
+				1449DCED956DE47F8E99B47240B2994F /* POPVector.mm in Sources */,
+				DB86B3BCF48F6668C79AE89E8A9943D9 /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A312171C46E65C7A7286B5ED85896211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292E2C73CCB8DCA0E24F1CEAABB4CA80 /* Pods-SwiftUIButtonAnimation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24125255171B4E465A02155C472B6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6358E1AED1AD2949B366E7EBE95E139 /* Canvas-dummy.m in Sources */,
+				D8A033E57E90F3646D39E7BC566F2067 /* CSAnimation.m in Sources */,
+				3A5D78EF2A1342D0396C1C4AF0451491 /* CSAnimationView.m in Sources */,
+				B39819FF29E15C9E4636B09B4627D46C /* CSBlurView.m in Sources */,
+				6549C61A563E8A6EA19294978B65CDE4 /* CSNavigationController.m in Sources */,
+				5CC3111F76F6E705205BB03C7ED4E248 /* UIButton+TCCustomFont.m in Sources */,
+				BEA3281085FA13AF921E88B84ED5D3F8 /* UILabel+TCCustomFont.m in Sources */,
+				146630EFBC4D2231A50CB9F11A337EC6 /* UINavigationBar+TCCustomFont.m in Sources */,
+				1ED8CB9123077805739DDD87286C23BF /* UITextField+PlaceholderColor.m in Sources */,
+				722043CDFAD463446C6662F706DFB995 /* UITextField+TCCustomFont.m in Sources */,
+				3A5FCCCB61472AD8DFFA13B906E5CB17 /* UITextView+TCCustomFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4ADEF58529C543FBD512CEB4AA9AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB500889C45131CC564BDE78C0E1C1E4 /* DesignableButton.swift in Sources */,
+				1F2B994DC556596FC7C994042DE10488 /* Spring.swift in Sources */,
+				0E1A6CE70E2BD57D67ACB8BA7701D25A /* SpringAnimation.swift in Sources */,
+				ACC15F7CB46C0685FD21EE5B0F6F6AA8 /* SpringButton.swift in Sources */,
+				CAFE48EC2233F8A0C1E08DBCC2FD7C86 /* WYMaterialButton-dummy.m in Sources */,
+				8F46A1C8CE175954026C0CD51D7CD096 /* WYMaterialButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F4D7DCCAE8A0E5B19F7BE1A043ED624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Canvas;
+			target = F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */;
+			targetProxy = DDF196EEB168399454B56A45B2B290E9 /* PBXContainerItemProxy */;
+		};
+		4261358B4B559D8CCD968D44EABE4CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYMaterialButton;
+			target = C3EFC27D61B8B32465CCC5F03703306A /* WYMaterialButton */;
+			targetProxy = 7C3693ECDB5EC67B4EB86CA097B69A31 /* PBXContainerItemProxy */;
+		};
+		50916E1EC5033E536638D5EC5DA0DC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 03E8EAEDED708FAF1B8DDCBCBF28C604 /* pop */;
+			targetProxy = 5C040D05BD240C60EF30327A81F9B517 /* PBXContainerItemProxy */;
+		};
+		98ECC5C5D942CD1BFA859E219EAE7261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 03E8EAEDED708FAF1B8DDCBCBF28C604 /* pop */;
+			targetProxy = FAA339B5637B9610CB28787DC2747018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0098E0F0E578A43FC7BD6748A2A9FF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD1B01A503E73D8AA9A6E2D8C731CFD /* Canvas.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4C0E671668FB6A79EECCB751F2019487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F94E8FA57E3A2352061272FEFCAF253 /* Pods-SwiftUIButtonAnimation.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUIButtonAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUIButtonAnimation/Pods-SwiftUIButtonAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftUIButtonAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76619C3FA53E462B3C10551BD16DC713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD1B01A503E73D8AA9A6E2D8C731CFD /* Canvas.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FE55F6E97EED8FBFCC6BDC847D36EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C45EC1731C48BB8E8EAB1A457410EAD /* pop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1089C45496BE1CFC1E3CEFACA1CC728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22626EA1244AC9B819E752EEA0DAC6F2 /* Pods-SwiftUIButtonAnimation.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUIButtonAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUIButtonAnimation/Pods-SwiftUIButtonAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftUIButtonAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3A6BF31DF5CE1A87D53C79E966C095A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40336B829990D501373D62AC7D7B0839 /* WYMaterialButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WYMaterialButton/WYMaterialButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYMaterialButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYMaterialButton/WYMaterialButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WYMaterialButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8B48F6E8907CFB497245BFCAE3FDFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C45EC1731C48BB8E8EAB1A457410EAD /* pop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D722B5C3ABD31057CEA4154702856ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40336B829990D501373D62AC7D7B0839 /* WYMaterialButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WYMaterialButton/WYMaterialButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYMaterialButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYMaterialButton/WYMaterialButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WYMaterialButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0841DFE172416B78F00CC10F26B35DE1 /* Build configuration list for PBXNativeTarget "WYMaterialButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A6BF31DF5CE1A87D53C79E966C095A /* Debug */,
+				D722B5C3ABD31057CEA4154702856ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521CAF803490AC181ED07B413EB9D451 /* Build configuration list for PBXNativeTarget "Pods-SwiftUIButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0E671668FB6A79EECCB751F2019487 /* Debug */,
+				A1089C45496BE1CFC1E3CEFACA1CC728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596FCB5904178E733A3C78618222D49A /* Build configuration list for PBXNativeTarget "Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0098E0F0E578A43FC7BD6748A2A9FF4A /* Debug */,
+				76619C3FA53E462B3C10551BD16DC713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C6FF20C7B1C66404ECA0763F77EB91 /* Build configuration list for PBXNativeTarget "pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B48F6E8907CFB497245BFCAE3FDFD7 /* Debug */,
+				9FE55F6E97EED8FBFCC6BDC847D36EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

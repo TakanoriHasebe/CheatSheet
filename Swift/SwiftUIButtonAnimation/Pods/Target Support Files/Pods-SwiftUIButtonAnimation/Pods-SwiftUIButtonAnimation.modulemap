@@ -1,0 +1,6 @@
+framework module Pods_SwiftUIButtonAnimation {
+  umbrella header "Pods-SwiftUIButtonAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}
